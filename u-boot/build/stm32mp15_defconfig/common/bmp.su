@@ -1,0 +1,3 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/bmp.c:37:19:gunzip_bmp	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/bmp.c:91:5:bmp_info	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/bmp.c:117:5:bmp_display	32	static

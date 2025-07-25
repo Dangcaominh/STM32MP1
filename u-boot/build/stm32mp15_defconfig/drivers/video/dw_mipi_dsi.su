@@ -1,0 +1,8 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:442:13:dw_mipi_dsi_video_mode_config	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:953:12:dw_mipi_dsi_probe	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:938:12:dw_mipi_dsi_enable	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:275:12:dw_mipi_dsi_host_attach	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:675:12:dw_mipi_dsi_get_hcomponent_lbcc.isra	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:570:12:dw_mipi_dsi_video_get_panel.isra	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:406:16:dw_mipi_dsi_host_transfer	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/dw_mipi_dsi.c:887:12:dw_mipi_dsi_init	96	static

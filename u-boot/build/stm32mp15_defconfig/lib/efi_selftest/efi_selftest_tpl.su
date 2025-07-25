@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_tpl.c:24:20:notify	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_tpl.c:74:12:teardown	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_tpl.c:112:12:execute	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_tpl.c:42:12:setup	24	static

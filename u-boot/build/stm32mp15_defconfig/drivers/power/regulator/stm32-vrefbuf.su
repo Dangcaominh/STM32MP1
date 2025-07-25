@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/stm32-vrefbuf.c:83:12:stm32_vrefbuf_get_enable	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/stm32-vrefbuf.c:90:12:stm32_vrefbuf_set_value	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/stm32-vrefbuf.c:106:12:stm32_vrefbuf_get_value	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/stm32-vrefbuf.c:42:12:stm32_vrefbuf_set_enable	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/stm32-vrefbuf.c:124:12:stm32_vrefbuf_probe	48	static

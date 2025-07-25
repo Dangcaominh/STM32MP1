@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_manageprotocols.c:127:12:teardown	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_manageprotocols.c:76:12:setup	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_manageprotocols.c:48:14:find_in_buffer	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_manageprotocols.c:136:12:execute	72	static

@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_esrt.c:48:8:efi_test_fmp_get_image_info	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_esrt.c:173:12:setup	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_esrt.c:190:12:teardown	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_esrt.c:93:14:lib_test_get_esrt	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_esrt.c:231:12:execute	32	static

@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/bbt.c:28:5:nanddev_bbt_init	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/bbt.c:49:6:nanddev_bbt_cleanup	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/bbt.c:64:5:nanddev_bbt_update	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/bbt.c:78:5:nanddev_bbt_get_block_status	20	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/bbt.c:111:5:nanddev_bbt_set_block_status	20	static

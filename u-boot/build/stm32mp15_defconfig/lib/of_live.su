@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/of_live.c:42:14:unflatten_dt_node	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/of_live.c:256:5:unflatten_device_tree	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/of_live.c:314:5:of_live_build	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/of_live.c:334:6:of_live_free	0	static

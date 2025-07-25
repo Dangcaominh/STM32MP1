@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/update.c:215:5:update_tftp	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/update.c:334:5:fit_update	64	static

@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_console.c:54:13:printx	20	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_console.c:103:13:uint2dec	20	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_console.c:165:6:efi_st_printc	380	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_console.c:279:5:efi_st_get_key	24	static

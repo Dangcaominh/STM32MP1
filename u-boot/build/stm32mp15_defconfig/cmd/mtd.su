@@ -1,0 +1,13 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:569:1:complete_mtd	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:53:13:mtd_dump_buf	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:103:13:mtd_show_parts	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:22:25:get_mtd_by_name	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:508:12:mtd_name_complete	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:205:12:do_mtd_list	296	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:569:1:do_mtd	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:477:12:do_mtd_bad	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:48:13:mtd_is_aligned_with_block_size.isra	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:393:12:do_mtd_erase	128	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:43:13:mtd_is_aligned_with_min_io_size.isra	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:36:13:mtd_len_to_pages.isra	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/mtd.c:250:12:do_mtd_io	136	static

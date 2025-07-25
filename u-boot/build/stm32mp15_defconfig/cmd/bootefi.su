@@ -1,0 +1,8 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:52:13:efi_clear_bootdev	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:139:21:efi_env_set_load_options	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:354:21:do_bootefi_exec	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:43:6:efi_get_image_parameters	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:74:6:efi_set_bootdev	48	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:259:14:efi_install_fdt	480	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:487:14:efi_run_image	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bootefi.c:647:12:do_bootefi	56	static

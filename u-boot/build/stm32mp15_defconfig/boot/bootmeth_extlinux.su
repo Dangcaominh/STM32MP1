@@ -1,0 +1,6 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:25:12:extlinux_get_state_desc	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:141:12:extlinux_boot	104	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:38:12:extlinux_getfile	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:164:12:extlinux_bootmeth_bind	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:101:12:extlinux_read_bootflow	256	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootmeth_extlinux.c:57:12:extlinux_check	0	static

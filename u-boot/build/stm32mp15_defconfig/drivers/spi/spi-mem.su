@@ -1,0 +1,12 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:115:12:spi_check_buswidth_req.isra	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:150:13:spi_mem_check_buswidth	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:172:6:spi_mem_dtr_supports_op	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:188:6:spi_mem_default_supports_op	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:216:6:spi_mem_supports_op	4	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:241:5:spi_mem_exec_op	56	dynamic
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:460:5:spi_mem_adjust_op_size	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:492:16:spi_mem_no_dirmap_read	72	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:546:1:spi_mem_dirmap_create	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:595:6:spi_mem_dirmap_destroy	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:694:9:spi_mem_dirmap_read	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/spi/spi-mem.c:734:9:spi_mem_dirmap_write	8	static

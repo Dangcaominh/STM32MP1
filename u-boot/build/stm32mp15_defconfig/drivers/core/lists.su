@@ -1,0 +1,6 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:23:16:lists_driver_lookup_name	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:39:23:lists_uclass_lookup	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:109:5:lists_bind_drivers	64	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:139:5:device_bind_driver_to_node	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:132:5:device_bind_driver	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/lists.c:184:5:lists_bind_fdt	80	static

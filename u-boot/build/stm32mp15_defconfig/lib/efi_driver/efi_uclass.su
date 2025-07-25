@@ -1,0 +1,8 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:342:12:efi_uc_init	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:34:21:check_node_type	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:117:28:efi_uc_start	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:61:28:efi_uc_supported	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:171:21:disconnect_child	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:202:28:efi_uc_stop	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:354:12:efi_uc_destroy	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_uclass.c:316:14:efi_driver_init	48	static

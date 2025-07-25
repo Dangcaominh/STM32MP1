@@ -1,0 +1,16 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:29:28:part_driver_get_type	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:45:28:part_driver_lookup_type	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:70:5:part_get_type_by_name	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:109:18:blk_get_dev	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:143:6:dev_print	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:251:6:part_init	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:321:6:part_print	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:338:5:part_get_info_by_type	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:377:5:part_get_info	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:383:5:part_get_info_whole_disk	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:402:5:blk_get_device_by_str	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:463:5:blk_get_device_part_str	216	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:675:5:part_get_info_by_name	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:759:5:part_get_info_by_dev_and_name_or_num	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:784:6:part_set_generic_name	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part.c:811:5:part_get_bootable	184	static

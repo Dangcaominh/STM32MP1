@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mmc/mmc_write.c:70:7:mmc_berase	88	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mmc/mmc_write.c:200:7:mmc_bwrite	104	static

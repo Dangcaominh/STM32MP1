@@ -1,0 +1,7 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:214:12:mmc_set_env_part_restore.isra	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:168:12:mmc_get_env_addr	240	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:186:13:mmc_get_env_part	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:224:20:init_mmc_for_env	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:335:12:env_mmc_erase	64	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:264:12:env_mmc_save	8312	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/mmc.c:400:12:env_mmc_load	16584	static

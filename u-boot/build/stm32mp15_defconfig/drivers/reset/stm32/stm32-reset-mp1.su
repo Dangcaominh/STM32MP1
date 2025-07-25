@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-mp1.c:44:12:stm32_reset_probe	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-mp1.c:19:38:stm32_get_reset_line	8	static

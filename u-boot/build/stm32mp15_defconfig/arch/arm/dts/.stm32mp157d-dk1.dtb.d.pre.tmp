@@ -1,0 +1,25 @@
+.stm32mp157d-dk1.dtb.pre.o: arch/arm/dts/.stm32mp157d-dk1.dtb.pre.tmp \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
+ include/generated/autoconf.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp153.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/arm-gic.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/irq.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/clock/stm32mp1-clks.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/gpio/gpio.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/reset/stm32mp1-resets.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xd.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/pinctrl/stm32-pinfunc.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/pinctrl/stm32mp15-hdp.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xxac-pinctrl.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xx-dkx.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/mfd/st,stpmic1.h \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-m4-srm.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-m4-srm-pinctrl.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157a-dk1-scmi.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-scmi.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157d-dk1-u-boot.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157a-dk1-u-boot.dtsi \
+ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-scmi-u-boot.dtsi

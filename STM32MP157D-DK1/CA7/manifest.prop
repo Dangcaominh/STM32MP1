@@ -1,0 +1,5 @@
+MANIFEST_VERSION = openstlinux-6.6-yocto-scarthgap-mpu-v24.11.06
+KERNEL_DT = ./DeviceTree/STM32MP157D-DK1/kernel
+OPTEE_DT = ./DeviceTree/STM32MP157D-DK1/optee-os
+UBOOT_DT = ./DeviceTree/STM32MP157D-DK1/u-boot
+TFA_DT = ./DeviceTree/STM32MP157D-DK1/tf-a

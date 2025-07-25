@@ -1,0 +1,3 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/adc/stm32-adc-core.c:191:12:stm32_adc_core_probe	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/adc/stm32-adc-core.c:152:12:stm32mp25_adc_clk_sel	48	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/adc/stm32-adc-core.c:71:12:stm32h7_adc_clk_sel	56	static

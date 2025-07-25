@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/expo_build.c:42:5:add_txt_str	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/expo_build.c:89:5:add_txt_str_list	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/expo_build.c:130:5:build_element	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/expo_build.c:367:5:expo_build	128	static

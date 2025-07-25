@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/budget.c:173:5:ubifs_calc_min_idx_lebs	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/budget.c:634:11:ubifs_reported_space	24	static

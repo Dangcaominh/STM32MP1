@@ -1,0 +1,1 @@
+. /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
