@@ -36,7 +36,9 @@ if [ $# -lt 2 ] || [ $# -gt 3 ]; then
     exit 1
 fi
 
-export HOSTLDLIBS="-lncurses"
+# Uncomment this if you are using Ubuntu 20.04
+# export HOSTLDLIBS="-lncurses"
+
 COMPONENT=$1
 BOARD=$2
 BUILD_OPTION=$3
@@ -89,9 +91,9 @@ function build_kernel() {
     case "$BUILD_OPTION" in
         "menuconfig")
             echo "Running menuconfig for U-Boot..."
-            # make O="${OUTPUT_BUILD_DIR}" defconfig fragment*.config
-            # for f in `ls -1 ../fragment*.config`; do scripts/kconfig/merge_config.sh -m -r -O ${OUTPUT_BUILD_DIR} ${OUTPUT_BUILD_DIR}/.config $f; done
-            # (yes '' || true) | make oldconfig O="${OUTPUT_BUILD_DIR}"
+            make O="${OUTPUT_BUILD_DIR}" defconfig fragment*.config
+            for f in `ls -1 ../fragment*.config`; do scripts/kconfig/merge_config.sh -m -r -O ${OUTPUT_BUILD_DIR} ${OUTPUT_BUILD_DIR}/.config $f; done
+            (yes '' || true) | make oldconfig O="${OUTPUT_BUILD_DIR}"
             pushd ../build
             make menuconfig
             popd
