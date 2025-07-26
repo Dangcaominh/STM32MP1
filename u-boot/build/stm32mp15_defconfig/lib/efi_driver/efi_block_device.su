@@ -1,4 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_block_device.c:89:14:efi_bl_write	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_block_device.c:60:14:efi_bl_read	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_block_device.c:180:21:efi_bl_bind	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_driver/efi_block_device.c:204:1:efi_bl_init	16	static

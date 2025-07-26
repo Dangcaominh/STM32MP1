@@ -1,2 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/fwu-mdata-uclass.c:23:5:fwu_read_mdata	4	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/fwu-mdata-uclass.c:41:5:fwu_write_mdata	4	static

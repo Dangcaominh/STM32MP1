@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath_util.c:54:12:create_single_node_device_path	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath_util.c:92:12:execute	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath_util.c:27:12:setup	8	static

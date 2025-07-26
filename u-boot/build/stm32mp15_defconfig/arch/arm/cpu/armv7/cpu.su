@@ -1,4 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/cpu/armv7/cpu.c:26:13:cpu_cache_initialization	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/cpu/armv7/cpu.c:28:5:cleanup_before_linux_select	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/cpu/armv7/cpu.c:82:5:cleanup_before_linux	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/cpu/armv7/cpu.c:87:6:allow_unaligned	0	static

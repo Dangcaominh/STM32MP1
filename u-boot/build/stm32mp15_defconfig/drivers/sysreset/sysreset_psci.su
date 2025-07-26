@@ -1,2 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/sysreset/sysreset_psci.c:12:12:psci_sysreset_get_status	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/sysreset/sysreset_psci.c:17:12:psci_sysreset_request	8	static

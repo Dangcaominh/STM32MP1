@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath.c:239:12:teardown	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath.c:114:12:setup	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_devicepath.c:306:12:execute	80	static

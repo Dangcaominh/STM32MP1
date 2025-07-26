@@ -1,6 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:63:5:padding_pkcs_15_verify	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:325:12:rsa_verify_key	56	dynamic
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:437:12:rsa_verify_with_keynode	72	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:397:5:rsa_verify_with_pkey	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:492:5:rsa_verify_hash	152	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-verify.c:561:5:rsa_verify	24	dynamic

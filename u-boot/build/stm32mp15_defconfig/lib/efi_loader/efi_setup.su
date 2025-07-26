@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_setup.c:25:13:allow_unaligned	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_setup.c:190:5:efi_init_early	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_setup.c:224:14:efi_init_obj_list	72	static

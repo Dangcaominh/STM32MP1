@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/mtd_uboot.c:23:20:get_mtdids	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/mtd_uboot.c:57:5:mtd_search_alternate_name	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/mtd_uboot.c:312:5:mtd_probe_devices	80	static

@@ -1,4 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/ext4.c:44:5:do_ext4_size	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/ext4.c:49:5:do_ext4_load	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/ext4.c:54:5:do_ext4_ls	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/ext4.c:60:5:do_ext4_write	16	static

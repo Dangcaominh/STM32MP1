@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rand.c:15:14:rand_r	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rand.c:24:14:rand	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rand.c:29:6:srand	0	static

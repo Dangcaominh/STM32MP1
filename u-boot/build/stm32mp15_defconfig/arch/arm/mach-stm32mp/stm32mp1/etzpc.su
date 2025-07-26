@@ -1,5 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/etzpc.c:63:12:etzpc_check_access	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/etzpc.c:43:12:etzpc_parse_feature_domain	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/etzpc.c:117:12:stm32_etzpc_bind	144	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/etzpc.c:82:5:stm32_etzpc_check_access_by_id	136	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/etzpc.c:112:5:stm32_etzpc_check_access	0	static

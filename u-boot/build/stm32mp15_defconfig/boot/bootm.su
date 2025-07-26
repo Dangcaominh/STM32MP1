@@ -1,7 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:50:13:board_quiesce_devices	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:285:5:bootm_find_images	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:479:7:bootm_disable_interrupts	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:612:5:bootm_process_cmdline	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:634:5:bootm_process_cmdline_env	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:701:5:do_bootm_states	88	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/bootm.c:1018:13:switch_to_non_secure_mode	0	static

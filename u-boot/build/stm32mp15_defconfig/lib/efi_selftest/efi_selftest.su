@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest.c:32:6:efi_st_exit_boot_services	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest.c:212:6:efi_st_do_tests	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest.c:252:21:efi_selftest	32	static

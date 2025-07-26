@@ -1,7 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:293:13:dsi_phy_post_set_mode	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:928:12:stm32_dsi_set_backlight	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:262:12:dsi_phy_init	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:961:12:stm32_dsi_probe	88	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:949:12:stm32_dsi_bind	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:863:12:stm32_dsi_attach	176	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_dsi.c:317:12:dsi_get_lane_mbps	112	static

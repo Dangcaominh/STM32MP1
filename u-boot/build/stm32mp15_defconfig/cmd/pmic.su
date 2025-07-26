@@ -1,7 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:208:12:do_pmic	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:18:12:failure	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:165:12:do_write	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:125:12:do_read	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:79:12:do_dump	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:50:12:do_list	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pmic.c:25:12:do_dev	16	static

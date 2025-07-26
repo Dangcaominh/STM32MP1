@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/fdtdec_common.c:22:5:fdtdec_get_int	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/fdtdec_common.c:40:14:fdtdec_get_uint	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/fdtdec_common.c:58:5:fdtdec_get_child_count	16	static

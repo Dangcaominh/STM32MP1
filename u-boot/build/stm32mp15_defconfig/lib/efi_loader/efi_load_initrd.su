@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_load_initrd.c:92:1:efi_load_file2_initrd	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_load_initrd.c:197:14:efi_initrd_register	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/efi_load_initrd.c:230:14:efi_initrd_deregister	24	static

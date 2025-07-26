@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/image-sig.c:55:23:image_get_checksum_algo	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/image-sig.c:85:21:image_get_crypto_algo	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/boot/image-sig.c:121:22:image_get_padding_algo	16	static

@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/helloworld.c:39:13:uint2dec	20	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/helloworld.c:147:14:print_device_path	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_loader/helloworld.c:181:21:efi_main	88	static

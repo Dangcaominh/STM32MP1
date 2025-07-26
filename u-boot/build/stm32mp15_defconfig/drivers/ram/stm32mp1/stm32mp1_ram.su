@@ -1,5 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/ram/stm32mp1/stm32mp1_ram.c:386:12:stm32mp1_ddr_get_info	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/ram/stm32mp1/stm32mp1_ram.c:34:5:stm32mp1_ddr_clk_enable	80	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/ram/stm32mp1/stm32mp1_ram.c:70:12:board_stm32mp1_ddr_config_name_match	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/ram/stm32mp1/stm32mp1_ram.c:328:5:stm32mp1_ddr_size	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/ram/stm32mp1/stm32mp1_ram.c:355:12:stm32mp1_ddr_probe	24	static

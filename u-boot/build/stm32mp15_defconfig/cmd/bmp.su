@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bmp.c:76:12:do_bmp	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bmp.c:38:12:do_bmp_display	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/bmp.c:19:12:do_bmp_info	8	static

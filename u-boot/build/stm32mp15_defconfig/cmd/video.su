@@ -1,2 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/video.c:15:12:do_video_setcursor	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/video.c:33:12:do_video_puts	16	static

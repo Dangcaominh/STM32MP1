@@ -1,8 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:34:13:show_devices	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:26:12:h_cmp_uclass_id	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:88:6:dm_dump_tree	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:130:6:dm_dump_uclass	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:153:6:dm_dump_driver_compat	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:177:6:dm_dump_drivers	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:216:6:dm_dump_static_driver_info	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/core/dump.c:229:6:dm_dump_mem	56	static

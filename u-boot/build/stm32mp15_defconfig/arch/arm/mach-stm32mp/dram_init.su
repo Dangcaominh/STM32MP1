@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/dram_init.c:21:5:dram_init	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/dram_init.c:52:13:board_get_usable_ram_top	256	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/dram_init.c:85:6:efi_add_known_memory	16	static

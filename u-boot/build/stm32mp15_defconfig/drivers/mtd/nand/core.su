@@ -1,6 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:28:6:nanddev_isbad	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:67:5:nanddev_markbad	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:108:6:nanddev_isreserved	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:166:5:nanddev_mtd_erase	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:201:5:nanddev_init	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/core.c:246:6:nanddev_cleanup	0	static

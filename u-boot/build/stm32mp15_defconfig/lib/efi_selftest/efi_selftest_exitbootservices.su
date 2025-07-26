@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_exitbootservices.c:48:20:ebs_notify	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_exitbootservices.c:68:12:setup	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_exitbootservices.c:106:12:execute	8	static

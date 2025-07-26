@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_gop.c:44:12:teardown	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_gop.c:54:12:execute	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_gop.c:23:12:setup	8	static

@@ -1,5 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_iso.c:29:15:iso_dread	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_iso.c:49:5:part_get_info_iso_verb	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_iso.c:227:12:part_test_iso	176	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_iso.c:208:13:part_print_iso	208	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_iso.c:202:12:part_get_info_iso	0	static

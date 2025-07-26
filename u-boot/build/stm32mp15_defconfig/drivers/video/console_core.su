@@ -1,9 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:21:12:console_set_font	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:47:5:check_bpix_support	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:59:13:fill_pixel_and_goto_next	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:78:5:fill_char_vertically	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:131:5:fill_char_horizontally	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:179:5:console_probe	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:184:13:console_simple_get_font_size	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:193:5:console_simple_get_font	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/console_core.c:200:5:console_simple_select_font	16	static

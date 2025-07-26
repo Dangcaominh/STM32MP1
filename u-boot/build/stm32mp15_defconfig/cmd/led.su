@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/led.c:36:12:show_led_state	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/led.c:24:18:get_led_cmd	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/led.c:74:5:do_led	24	static

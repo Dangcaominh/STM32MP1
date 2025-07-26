@@ -1,3 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/blkcache.c:59:12:do_blkcache	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/blkcache.c:29:12:blkc_configure	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/blkcache.c:13:12:blkc_show	40	static

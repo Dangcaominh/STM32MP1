@@ -1,9 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:57:12:stm32mp_pwr_read	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:39:12:stm32mp_pwr_write	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:70:12:stm32mp_pwr_of_to_plat	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:87:12:stm32mp_pwr_bind	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:214:12:stm32mp_pwr_regulator_get_enable	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:229:12:stm32mp_pwr_regulator_set_enable	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:182:12:stm32mp_pwr_regulator_set_value	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:198:12:stm32mp_pwr_regulator_get_value	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/pwr_regulator.c:144:12:stm32mp_pwr_regulator_probe	32	static

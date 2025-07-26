@@ -36,6 +36,7 @@ if [ $# -lt 2 ] || [ $# -gt 3 ]; then
     exit 1
 fi
 
+export HOSTLDLIBS="-lncurses"
 COMPONENT=$1
 BOARD=$2
 BUILD_OPTION=$3
@@ -54,25 +55,18 @@ case $BOARD in
         ;;
 esac
 
-echo "Building $COMPONENT for board: $BOARD (SOC: $SOC_TYPE)"
-echo "External DT: $EXTDT_DIR"
 
-functi
+
+function print_build_complete() {
+    echo "========================================================================================"
+    echo "  Building $COMPONENT for board: $BOARD (SOC: $SOC_TYPE) completed successfully!"
+    echo "                  Output directory: $FIP_DEPLOYDIR_ROOT"
+    echo "========================================================================================"
+}
 
 # Clean up function
 function cleanup_directories() {
-    echo "Cleaning up directories..."
-    rm -rf images/stm32mp1/u-boot/*
-    rm -rf images/stm32mp1/fip/*
-    if [ "$COMPONENT" = "atf" ] || [ "$COMPONENT" = "all" ]; then
-        rm -rf images/stm32mp1/atf/*
-    fi
-    if [ "$COMPONENT" = "optee" ] || [ "$COMPONENT" = "all" ]; then
-        rm -rf images/stm32mp1/optee-os/*
-    fi
-    if [ "$COMPONENT" = "kernel" ] || [ "$COMPONENT" = "all" ]; then
-        rm -rf images/stm32mp1/kernel/*
-    fi
+    echo "Cleaning up build directories..."
 }
 
 # Build ARM Trusted Firmware
@@ -88,7 +82,33 @@ function build_optee() {
 
 # Build Linux Kernel
 function build_kernel() {
-    echo "Building Linux Kernel..."
+    source env_setup.sh
+    pushd kernel/stm32mp1_linux
+    export OUTPUT_BUILD_DIR=$PWD/../build
+    mkdir -p ${OUTPUT_BUILD_DIR}
+    case "$BUILD_OPTION" in
+        "menuconfig")
+            echo "Running menuconfig for U-Boot..."
+            # make O="${OUTPUT_BUILD_DIR}" defconfig fragment*.config
+            # for f in `ls -1 ../fragment*.config`; do scripts/kconfig/merge_config.sh -m -r -O ${OUTPUT_BUILD_DIR} ${OUTPUT_BUILD_DIR}/.config $f; done
+            # (yes '' || true) | make oldconfig O="${OUTPUT_BUILD_DIR}"
+            pushd ../build
+            make menuconfig
+            popd
+            ;;
+        *) 
+            [ "${ARCH}" = "arm" ] && imgtarget="uImage" || imgtarget="Image.gz"
+            export IMAGE_KERNEL=${imgtarget}
+            make -j32 ${IMAGE_KERNEL} vmlinux dtbs LOADADDR=0xC2000040 O="${OUTPUT_BUILD_DIR}"
+            make -j32 modules O="${OUTPUT_BUILD_DIR}"
+            make -j32 INSTALL_MOD_PATH="${OUTPUT_BUILD_DIR}/install_artifact" modules_install O="${OUTPUT_BUILD_DIR}"
+            mkdir -p ${OUTPUT_BUILD_DIR}/install_artifact/boot/
+            cp ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/${IMAGE_KERNEL} ${OUTPUT_BUILD_DIR}/install_artifact/boot/
+            find ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/dts/ -name 'st*.dtb' -exec cp '{}' ${OUTPUT_BUILD_DIR}/install_artifact/bootsd/
+            print_build_complete
+            ;;
+    esac
+    popd
 }
 
 # Build U-Boot
@@ -115,9 +135,11 @@ function build_uboot()
         "clean")
             echo "Cleaning U-Boot build directories..."
             make -f $PWD/../Makefile UBOOT_DEFCONFIG=${SOC_TYPE}_defconfig clean
+            print_build_complete
             ;;
-        *)
+        *) 
             make -f $PWD/../Makefile UBOOT_DEFCONFIG=${SOC_TYPE}_defconfig uboot
+            print_build_complete
             ;;
     esac
     popd
@@ -157,6 +179,3 @@ case $COMPONENT in
         exit 1
         ;;
 esac
-
-echo "Build completed successfully!"
-echo "Output directory: $FIP_DEPLOYDIR_ROOT"

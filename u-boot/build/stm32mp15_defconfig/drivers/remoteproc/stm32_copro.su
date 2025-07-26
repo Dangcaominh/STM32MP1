@@ -1,9 +1,0 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:122:20:stm32_copro_device_to_phys	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:148:14:stm32_copro_device_to_virt	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:353:12:stm32_copro_is_running	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:286:12:stm32_copro_reset	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:343:12:stm32_copro_stop	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:213:12:stm32_copro_start	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:167:12:stm32_copro_load	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:104:12:stm32_copro_remove	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/remoteproc/stm32_copro.c:54:12:stm32_copro_probe	40	static
