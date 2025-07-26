@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/arm_smc_wdt.c:34:12:smcwd_call	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/arm_smc_wdt.c:57:12:smcwd_reset	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/arm_smc_wdt.c:62:12:smcwd_stop	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/arm_smc_wdt.c:67:12:smcwd_start	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/arm_smc_wdt.c:87:12:smcwd_probe	56	static

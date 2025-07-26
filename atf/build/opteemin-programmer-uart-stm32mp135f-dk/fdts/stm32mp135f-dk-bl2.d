@@ -1,0 +1,1 @@
+/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.pre.dts

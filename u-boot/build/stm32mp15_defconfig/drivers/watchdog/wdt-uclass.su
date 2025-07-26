@@ -1,0 +1,11 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:248:12:wdt_post_bind	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:270:12:wdt_pre_probe	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:46:5:wdt_set_force_autostart	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:120:5:wdt_start	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:96:5:initr_watchdog	40	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:159:5:wdt_stop	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:177:5:wdt_stop_all	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:202:5:wdt_reset	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:55:13:wdt_cyclic	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:212:5:wdt_expire_now	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/wdt-uclass.c:239:6:watchdog_reset	0	static

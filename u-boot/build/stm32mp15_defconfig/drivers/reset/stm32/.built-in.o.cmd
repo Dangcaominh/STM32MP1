@@ -1,0 +1,1 @@
+cmd_drivers/reset/stm32/built-in.o :=  rm -f drivers/reset/stm32/built-in.o; arm-ostl-linux-gnueabi-ar cDPrsT drivers/reset/stm32/built-in.o drivers/reset/stm32/stm32-reset-core.o drivers/reset/stm32/stm32-reset-mp1.o

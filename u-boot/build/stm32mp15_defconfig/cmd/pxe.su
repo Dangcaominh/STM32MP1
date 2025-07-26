@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pxe.c:29:12:do_get_tftp	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pxe.c:312:12:do_pxe	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pxe.c:253:1:do_pxe_boot	64	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pxe.c:134:5:pxe_get	104	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pxe.c:201:1:do_pxe_get	24	static

@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/gpt_blk.c:29:12:gpt_get_mdata_partitions	224	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/gpt_blk.c:84:12:gpt_read_write_mdata	216	dynamic
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/gpt_blk.c:184:12:fwu_gpt_write_mdata	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/gpt_blk.c:165:12:fwu_gpt_read_mdata	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/fwu-mdata/gpt_blk.c:150:12:fwu_mdata_gpt_blk_probe	32	static

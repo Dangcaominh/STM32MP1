@@ -1,0 +1,7 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:29:5:scmi_dt_get_smt_buffer	136	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:68:5:scmi_write_msg_to_smt	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:106:5:scmi_read_resp_from_smt	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:137:5:scmi_wait_resp_from_smt	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:156:6:scmi_clear_smt_channel	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:167:5:scmi_msg_to_smt_msg	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/smt.c:198:5:scmi_msg_from_smt_msg	24	static

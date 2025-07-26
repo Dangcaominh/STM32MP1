@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/gpio-regulator.c:133:12:gpio_regulator_set_enable	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/gpio-regulator.c:127:12:gpio_regulator_get_enable	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/gpio-regulator.c:101:12:gpio_regulator_set_value	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/gpio-regulator.c:79:12:gpio_regulator_get_value	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/gpio-regulator.c:27:12:gpio_regulator_of_to_plat	40	static

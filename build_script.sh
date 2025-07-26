@@ -74,7 +74,24 @@ function cleanup_directories() {
 # Build ARM Trusted Firmware
 function build_atf() 
 {
-    echo "Building ARM Trusted Firmware..."
+    source env_setup.sh
+    # Set up environment variables
+    export OUT_OF_TREE_MODULE=STM32MP157D-DK1
+    export DEPLOYDIR=$PWD/images/stm32mp1/arm-trusted-firmware
+    export FIP_DEPLOYDIR_ROOT=$PWD/images/stm32mp1
+    export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree/STM32MP157D-DK1/tf-a/
+    pushd atf/stm32mp1_atf
+    case "$BUILD_OPTION" in
+        "clean")
+            echo "Cleaning ARM Trusted Firmware build directories..."
+            make -f $PWD/../Makefile clean
+            print_build_complete
+            ;;
+        *) 
+            make -f $PWD/../Makefile stm32
+            print_build_complete
+            ;;
+    esac
 }
 
 # Build OP-TEE OS
@@ -87,6 +104,10 @@ function build_kernel() {
     source env_setup.sh
     pushd kernel/stm32mp1_linux
     export OUTPUT_BUILD_DIR=$PWD/../build
+    # Add external device tree support
+    export OUT_OF_TREE_MODULE=STM32MP157D-DK1
+    export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree/STM32MP157D-DK1/kernel/
+    export FIP_DEPLOYDIR_ROOT=$PWD/../../images/stm32mp1
     mkdir -p ${OUTPUT_BUILD_DIR}
     case "$BUILD_OPTION" in
         "menuconfig")
@@ -101,12 +122,25 @@ function build_kernel() {
         *) 
             [ "${ARCH}" = "arm" ] && imgtarget="uImage" || imgtarget="Image.gz"
             export IMAGE_KERNEL=${imgtarget}
-            make -j32 ${IMAGE_KERNEL} vmlinux dtbs LOADADDR=0xC2000040 O="${OUTPUT_BUILD_DIR}"
+            # Build with external device tree if directory exists
+            if [ -d "$EXTDT_DIR" ]; then
+                echo "Building kernel with external device tree from: $EXTDT_DIR"
+                make -j32 ${IMAGE_KERNEL} vmlinux dtbs LOADADDR=0xC2000040 O="${OUTPUT_BUILD_DIR}" EXTDT_DIR="$EXTDT_DIR"
+            else
+                echo "Building kernel with standard device tree"
+                make -j32 ${IMAGE_KERNEL} vmlinux dtbs LOADADDR=0xC2000040 O="${OUTPUT_BUILD_DIR}"
+            fi
             make -j32 modules O="${OUTPUT_BUILD_DIR}"
             make -j32 INSTALL_MOD_PATH="${OUTPUT_BUILD_DIR}/install_artifact" modules_install O="${OUTPUT_BUILD_DIR}"
             mkdir -p ${OUTPUT_BUILD_DIR}/install_artifact/boot/
-            cp ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/${IMAGE_KERNEL} ${OUTPUT_BUILD_DIR}/install_artifact/boot/
-            find ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/dts/ -name 'st*.dtb' -exec cp '{}' ${OUTPUT_BUILD_DIR}/install_artifact/bootsd/
+            sudo cp ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/${IMAGE_KERNEL} ${OUTPUT_BUILD_DIR}/install_artifact/boot/
+            # Copy device tree files (fixed find command)
+            mkdir -p ${FIP_DEPLOYDIR_ROOT}/kernel
+            find ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/dts/ -name 'st*.dtb' -exec sudo cp '{}' ${FIP_DEPLOYDIR_ROOT}/kernel/ \;
+            # Copy external device trees if they exist
+            if [ -d "$EXTDT_DIR" ]; then
+                find ${OUTPUT_BUILD_DIR} -name "${BOARD}*.dtb" -exec sudo cp '{}' ${FIP_DEPLOYDIR_ROOT}/kernel/ \;
+            fi
             print_build_complete
             ;;
     esac

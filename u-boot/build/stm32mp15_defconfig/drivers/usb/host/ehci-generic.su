@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/host/ehci-generic.c:63:12:ehci_usb_probe	48	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/host/ehci-generic.c:141:12:ehci_usb_remove	16	static

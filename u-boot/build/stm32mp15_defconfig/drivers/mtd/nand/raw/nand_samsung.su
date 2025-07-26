@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_samsung.c:92:12:samsung_nand_init	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_samsung.c:22:13:samsung_nand_decode_id	16	static

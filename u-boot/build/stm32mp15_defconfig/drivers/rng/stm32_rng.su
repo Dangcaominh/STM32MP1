@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/stm32_rng.c:168:12:stm32_rng_conceal_seed_error	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/stm32_rng.c:178:12:stm32_rng_read	56	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/stm32_rng.c:374:12:stm32_rng_of_to_plat	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/stm32_rng.c:367:12:stm32_rng_remove	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/stm32_rng.c:356:12:stm32_rng_probe	40	static

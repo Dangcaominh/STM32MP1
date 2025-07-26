@@ -1,0 +1,7 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:18:5:do_fat_size	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:31:5:do_fat_fsload	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:52:12:do_fat_ls	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:65:12:do_fat_fsinfo	200	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:98:12:do_fat_fswrite	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:112:12:do_fat_rm	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fat.c:125:12:do_fat_mkdir	16	static

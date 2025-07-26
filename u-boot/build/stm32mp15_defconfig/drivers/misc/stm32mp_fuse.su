@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/stm32mp_fuse.c:21:5:fuse_read	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/stm32mp_fuse.c:66:5:fuse_prog	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/stm32mp_fuse.c:110:5:fuse_sense	24	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/stm32mp_fuse.c:154:5:fuse_override	32	static

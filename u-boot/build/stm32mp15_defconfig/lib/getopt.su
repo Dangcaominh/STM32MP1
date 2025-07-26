@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/getopt.c:15:6:getopt_init_state	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/getopt.c:21:5:__getopt	40	static

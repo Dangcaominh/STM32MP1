@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/scmi_agent-uclass.c:59:12:scmi_bind_protocols	48	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/scmi_agent-uclass.c:113:24:find_scmi_transport_device	32	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/scmi_agent-uclass.c:40:5:scmi_to_linux_errno	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/scmi_agent-uclass.c:132:5:devm_scmi_of_get_channel	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/firmware/scmi/scmi_agent-uclass.c:149:5:devm_scmi_process_msg	16	static

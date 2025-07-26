@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/bdinfo.c:16:5:arch_setup_bdinfo	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/bdinfo.c:27:6:arch_print_bdinfo	8	static

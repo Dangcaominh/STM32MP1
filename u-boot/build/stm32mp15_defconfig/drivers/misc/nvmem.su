@@ -1,0 +1,4 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/nvmem.c:17:5:nvmem_cell_read	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/nvmem.c:42:5:nvmem_cell_write	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/nvmem.c:99:5:nvmem_cell_get_by_index	120	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/misc/nvmem.c:137:5:nvmem_cell_get_by_name	16	static

@@ -1,0 +1,5 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/typec/typec-stusb160x.c:87:11:stusb160x_get_nb_connector	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/typec/typec-stusb160x.c:32:12:stusb160x_get_status	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/typec/typec-stusb160x.c:63:12:stusb160x_get_data_role	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/typec/typec-stusb160x.c:75:12:stusb160x_is_attached	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/typec/typec-stusb160x.c:93:12:stusb160x_probe	8	static

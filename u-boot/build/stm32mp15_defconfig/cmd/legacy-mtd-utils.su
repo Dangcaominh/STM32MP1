@@ -1,0 +1,3 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/legacy-mtd-utils.c:10:6:check_devtype	0	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/legacy-mtd-utils.c:66:5:mtd_arg_off	48	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/legacy-mtd-utils.c:82:5:mtd_arg_off_size	56	static

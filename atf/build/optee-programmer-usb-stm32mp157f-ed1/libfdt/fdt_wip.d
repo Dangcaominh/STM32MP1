@@ -1,0 +1,21 @@
+/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-ed1/libfdt/fdt_wip.o: \
+ lib/libfdt/fdt_wip.c include/lib/libfdt/libfdt_env.h \
+ include/lib/libc/stdbool.h include/lib/libc/stddef.h \
+ include/lib/libc/aarch32/stddef_.h include/lib/libc/stdint.h \
+ include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \
+ include/lib/libc/aarch32/stdint_.h include/lib/libc/stdlib.h \
+ include/lib/libc/string.h include/lib/libfdt/fdt.h \
+ include/lib/libfdt/libfdt.h lib/libfdt/libfdt_internal.h
+include/lib/libfdt/libfdt_env.h:
+include/lib/libc/stdbool.h:
+include/lib/libc/stddef.h:
+include/lib/libc/aarch32/stddef_.h:
+include/lib/libc/stdint.h:
+include/lib/libc/limits.h:
+include/lib/libc/aarch32/limits_.h:
+include/lib/libc/aarch32/stdint_.h:
+include/lib/libc/stdlib.h:
+include/lib/libc/string.h:
+include/lib/libfdt/fdt.h:
+include/lib/libfdt/libfdt.h:
+lib/libfdt/libfdt_internal.h:

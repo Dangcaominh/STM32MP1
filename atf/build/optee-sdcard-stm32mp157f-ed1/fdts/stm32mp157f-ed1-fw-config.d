@@ -1,0 +1,1 @@
+/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157f-ed1/fdts/stm32mp157f-ed1-fw-config.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157f-ed1/fdts/stm32mp157f-ed1-fw-config.pre.dts

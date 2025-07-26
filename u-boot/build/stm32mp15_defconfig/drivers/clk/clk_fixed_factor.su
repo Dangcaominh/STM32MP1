@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/clk/clk_fixed_factor.c:26:14:clk_fixed_factor_get_rate	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/clk/clk_fixed_factor.c:44:12:clk_fixed_factor_of_to_plat	16	static

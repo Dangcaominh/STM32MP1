@@ -1,0 +1,2 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/host/usb_bootdev.c:14:12:usb_bootdev_bind	8	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/host/usb_bootdev.c:23:12:usb_bootdev_hunt	0	static

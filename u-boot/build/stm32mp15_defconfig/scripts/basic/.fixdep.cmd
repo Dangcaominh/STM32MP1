@@ -1,4 +1,4 @@
-cmd_scripts/basic/fixdep := cc -Wp,-MD,scripts/basic/.fixdep.d -Iscripts/basic -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11   -o scripts/basic/fixdep /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/basic/fixdep.c  -lncurses 
+cmd_scripts/basic/fixdep := cc -Wp,-MD,scripts/basic/.fixdep.d -Iscripts/basic -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11   -o scripts/basic/fixdep /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/basic/fixdep.c   
 
 source_scripts/basic/fixdep := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/basic/fixdep.c
 

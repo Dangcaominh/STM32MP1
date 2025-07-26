@@ -1,0 +1,8 @@
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:533:12:bsec_pta_open_session	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:574:12:bsec_optee_pta	144	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:758:12:stm32mp_bsec_of_to_plat	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:767:12:stm32mp_bsec_probe	144	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:694:12:stm32mp_bsec_write	80	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:627:12:stm32mp_bsec_read	88	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:865:6:bsec_dbgswenable	16	static
+/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/bsec.c:885:5:get_otp	24	static
