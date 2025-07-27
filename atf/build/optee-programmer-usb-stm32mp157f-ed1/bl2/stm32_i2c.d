@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-ed1/bl2/stm32_i2c.o: \
+../build/optee-programmer-usb-stm32mp157f-ed1/bl2/stm32_i2c.o: \
  drivers/st/i2c/stm32_i2c.c include/lib/libc/errno.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \
  include/lib/libc/stdbool.h include/lib/libc/stdlib.h \

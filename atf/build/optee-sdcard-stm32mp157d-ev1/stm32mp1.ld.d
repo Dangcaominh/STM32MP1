@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157d-ev1/stm32mp1.ld: \
+../build/optee-sdcard-stm32mp157d-ev1/stm32mp1.ld: \
  plat/st/stm32mp1/stm32mp1.ld.S \
  include/lib/xlat_tables/xlat_tables_defs.h include/arch/aarch32/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \

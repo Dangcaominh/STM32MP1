@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157c-ev1/libc/abort.o: \
- lib/libc/abort.c include/lib/libc/stdlib.h include/lib/libc/stddef.h \
+../build/optee-emmc-stm32mp157c-ev1/libc/abort.o: lib/libc/abort.c \
+ include/lib/libc/stdlib.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/common/debug.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/lib/libc/cdefs.h include/lib/libc/stdarg.h \

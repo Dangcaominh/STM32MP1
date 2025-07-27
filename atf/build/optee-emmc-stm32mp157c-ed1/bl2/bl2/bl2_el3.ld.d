@@ -1,11 +1,10 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157c-ed1/bl2/bl2/bl2_el3.ld: \
- bl2/bl2_el3.ld.S include/common/bl_common.ld.h \
- plat/st/stm32mp1/include/platform_def.h include/arch/aarch32/arch.h \
- include/lib/utils_def.h include/export/lib/utils_def_exp.h \
- include/drivers/arm/gic_common.h include/plat/common/common_def.h \
- include/common/bl_common.h include/common/ep_info.h \
- include/common/param_header.h include/lib/libc/stdbool.h \
- include/export/common/param_header_exp.h \
+../build/optee-emmc-stm32mp157c-ed1/bl2/bl2/bl2_el3.ld: bl2/bl2_el3.ld.S \
+ include/common/bl_common.ld.h plat/st/stm32mp1/include/platform_def.h \
+ include/arch/aarch32/arch.h include/lib/utils_def.h \
+ include/export/lib/utils_def_exp.h include/drivers/arm/gic_common.h \
+ include/plat/common/common_def.h include/common/bl_common.h \
+ include/common/ep_info.h include/common/param_header.h \
+ include/lib/libc/stdbool.h include/export/common/param_header_exp.h \
  include/export/common/../lib/utils_def_exp.h \
  include/export/common/ep_info_exp.h \
  include/export/common/param_header_exp.h \

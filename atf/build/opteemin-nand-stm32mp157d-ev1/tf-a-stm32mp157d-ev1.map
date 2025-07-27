@@ -24,7 +24,7 @@ Linker script and memory map
  .v4_bx         0x00000000        0x0 linker stubs
 
 .text           0x00000000        0x0
- .text          0x00000000        0x0 /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+ .text          0x00000000        0x0 ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
 
 .header         0x00000000        0x0
                 0x00000000                        __HEADER_START__ = .
@@ -38,29 +38,29 @@ Linker script and memory map
  *fill*         0x2ffc2500      0xb00 
                 0x2ffc3000                        __DATA_START__ = .
  *(.data*)
- .data          0x2ffc3000        0x0 /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+ .data          0x2ffc3000        0x0 ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
                 0x0001fb00                        . = 0x1fb00
  *fill*         0x2ffc3000    0x1f000 
                 0x2ffe2000                        __DTB_IMAGE_START__ = .
  *(.dtb_image*)
- .dtb_image     0x2ffe2000     0x3b60 /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+ .dtb_image     0x2ffe2000     0x3b60 ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
                 0x2ffe5b60                        __DTB_IMAGE_END__ = .
                 0x00026b00                        . = 0x26b00
  *fill*         0x2ffe5b60     0x34a0 
                 0x2ffe9000                        __BL2_IMAGE_START__ = .
  *(.bl2_image*)
- .bl2_image     0x2ffe9000    0x115cd /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+ .bl2_image     0x2ffe9000    0x115cd ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
                 0x2fffa5cd                        __BL2_IMAGE_END__ = .
                 0x2fffa5cd                        __DATA_END__ = .
                 0x2fffa5cd                        __TF_END__ = .
-LOAD /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
-OUTPUT(/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/tf-a-stm32mp157d-ev1.elf elf32-littlearm)
+LOAD ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+OUTPUT(../build/opteemin-nand-stm32mp157d-ev1/tf-a-stm32mp157d-ev1.elf elf32-littlearm)
 LOAD linker stubs
 
 .bss            0x2fffa5cd        0x0
- .bss           0x2fffa5cd        0x0 /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+ .bss           0x2fffa5cd        0x0 ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
 
 .ARM.attributes
                 0x00000000       0x27
  .ARM.attributes
-                0x00000000       0x27 /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o
+                0x00000000       0x27 ../build/opteemin-nand-stm32mp157d-ev1/stm32mp1-stm32mp157d-ev1.o

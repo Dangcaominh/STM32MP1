@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157d-ev1/bl2/popcountsi2.o: \
+../build/optee-programmer-uart-stm32mp157d-ev1/bl2/popcountsi2.o: \
  lib/compiler-rt/builtins/popcountsi2.c \
  lib/compiler-rt/builtins/int_lib.h include/lib/libc/aarch32/float.h \
  include/lib/libc/sys/cdefs.h include/lib/libc/limits.h \

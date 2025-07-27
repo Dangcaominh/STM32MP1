@@ -1,5 +1,5 @@
 # Set default path
-SRC_PATH ?= $(PWD)
+SRC_PATH ?= .
 BLD_PATH ?= $(SRC_PATH)/../build
 DEPLOYDIR ?= $(SRC_PATH)/../deploy
 FIPTOOLDIR ?= $(SRC_PATH)/..
@@ -30,8 +30,8 @@ TF_A_EXTRA_OPTFLAGS ?=
 # Default TF-A metadata template
 TF_A_METADATA_JSON ?= $(SRC_PATH)/
 
-EXTDT_DIR_TF_A ?= stm32mp1/tf-a
-EXTDT_DIR_TF_A_SERIAL ?= stm32mp1/tf-a
+EXTDT_DIR_TF_A ?= STM32MP157D-DK1/tf-a
+EXTDT_DIR_TF_A_SERIAL ?= STM32MP157D-DK1/tf-a
 
 # Init default config settings
 TF_A_DEVICETREE_INTERNAL_optee-emmc ?= stm32mp157c-ed1 stm32mp157f-ed1 stm32mp157a-ev1 stm32mp157c-ev1 stm32mp157d-ev1 stm32mp157f-ev1 
@@ -336,7 +336,7 @@ help: $(tf-check-config)
 all: $(DEPS)
 
 host_tools:
-	@$(MAKE) --no-print-directory -C $(SRC_PATH)/tools/stm32image
+	@$(MAKE) $(EXTRA_OEMAKE) --no-print-directory -C $(SRC_PATH)/tools/stm32image
 
 # Set TF-A check config rules
 $(foreach config, $(TF_A_CONFIG), \
@@ -369,7 +369,7 @@ fip: $(deploy-targets)
 				FIP_BL31_ENABLE="$(TF_A_ENABLE_BL31)" \
 				$(if $(TF_A_DEVICETREE),FIP_DEVICETREE="$(TF_A_DEVICETREE)") \
 				$(if $(TF_A_DEVICETREE_SUFFIX),FIP_DEVICETREE_SUFFIX="$(TF_A_DEVICETREE_SUFFIX)") \
-				$(FIPTOOLDIR)/fiptool-stm32mp.stm32mp1 || exit 1; \
+				$(FIPTOOLDIR)/fiptool.sh || exit 1; \
 			fi ; \
 		done ; \
 	done

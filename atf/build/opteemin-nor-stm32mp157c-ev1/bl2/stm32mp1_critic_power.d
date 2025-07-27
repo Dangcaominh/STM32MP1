@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nor-stm32mp157c-ev1/bl2/stm32mp1_critic_power.o: \
+../build/opteemin-nor-stm32mp157c-ev1/bl2/stm32mp1_critic_power.o: \
  plat/st/stm32mp1/stm32mp1_critic_power.c \
  include/arch/aarch32/arch_helpers.h include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \

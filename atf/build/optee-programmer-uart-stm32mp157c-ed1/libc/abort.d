@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157c-ed1/libc/abort.o: \
+../build/optee-programmer-uart-stm32mp157c-ed1/libc/abort.o: \
  lib/libc/abort.c include/lib/libc/stdlib.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/common/debug.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \

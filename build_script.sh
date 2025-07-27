@@ -79,19 +79,38 @@ function build_atf()
     export OUT_OF_TREE_MODULE=STM32MP157D-DK1
     export DEPLOYDIR=$PWD/images/stm32mp1/arm-trusted-firmware
     export FIP_DEPLOYDIR_ROOT=$PWD/images/stm32mp1
-    export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree/STM32MP157D-DK1/tf-a/
+    export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree
     pushd atf/stm32mp1_atf
     case "$BUILD_OPTION" in
+        "help")
+            make -f $PWD/../Makefile EXTDT_DIR=${EXTDT_DIR} help
+            ;;
+        "binary")
+            echo "Building ARM Trusted Firmware binary..."
+            make -f $PWD/../Makefile stm32
+            ;;
+        "metadata")
+            echo "Generating metadata for ARM Trusted Firmware..."
+            make -f $PWD/../Makefile metadata
+            ;;
+        "fip")
+            echo "Generating FIP for ARM Trusted Firmware..."
+            make -f $PWD/../Makefile fip
+            ;;
         "clean")
             echo "Cleaning ARM Trusted Firmware build directories..."
             make -f $PWD/../Makefile clean
+            ;;
+        "all")
+            echo "Building ARM Trusted Firmware..."
+            make -f $PWD/../Makefile all
             print_build_complete
             ;;
-        *) 
-            make -f $PWD/../Makefile stm32
-            print_build_complete
-            ;;
+        *)
+            echo "Wrong build option for ARM Trusted Firmware: $BUILD_OPTION"
+            show_usage
     esac
+    popd
 }
 
 # Build OP-TEE OS

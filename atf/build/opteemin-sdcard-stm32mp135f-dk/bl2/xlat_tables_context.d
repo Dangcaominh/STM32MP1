@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp135f-dk/bl2/xlat_tables_context.o: \
+../build/opteemin-sdcard-stm32mp135f-dk/bl2/xlat_tables_context.o: \
  lib/xlat_tables_v2/xlat_tables_context.c \
  include/arch/aarch32/arch_helpers.h include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \

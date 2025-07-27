@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-dk2/libc/memset.o: \
+../build/optee-programmer-usb-stm32mp157f-dk2/libc/memset.o: \
  lib/libc/memset.c include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/lib/libc/string.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

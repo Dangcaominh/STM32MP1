@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157f-ed1/bl2/plat_image_load.o: \
+../build/optee-programmer-uart-stm32mp157f-ed1/bl2/plat_image_load.o: \
  plat/st/common/plat_image_load.c include/common/desc_image_load.h \
  include/common/bl_common.h include/common/ep_info.h \
  include/common/param_header.h include/lib/libc/stdbool.h \

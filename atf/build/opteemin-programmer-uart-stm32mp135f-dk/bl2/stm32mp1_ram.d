@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-uart-stm32mp135f-dk/bl2/stm32mp1_ram.o: \
+../build/opteemin-programmer-uart-stm32mp135f-dk/bl2/stm32mp1_ram.o: \
  drivers/st/ddr/stm32mp1_ram.c include/lib/libc/errno.h \
  include/arch/aarch32/arch_helpers.h include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-usb-stm32mp157f-ev1/bl2/usb_dfu.o: \
+../build/opteemin-programmer-usb-stm32mp157f-ev1/bl2/usb_dfu.o: \
  plat/st/common/usb_dfu.c include/lib/libc/errno.h \
  include/lib/libc/string.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/common/debug.h \

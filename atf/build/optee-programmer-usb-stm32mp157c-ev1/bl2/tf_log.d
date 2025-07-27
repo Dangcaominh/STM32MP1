@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ev1/bl2/tf_log.o: \
+../build/optee-programmer-usb-stm32mp157c-ev1/bl2/tf_log.o: \
  common/tf_log.c include/lib/libc/stdarg.h include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdbool.h \

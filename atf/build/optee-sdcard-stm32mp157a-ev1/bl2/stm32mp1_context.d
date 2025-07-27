@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157a-ev1/bl2/stm32mp1_context.o: \
+../build/optee-sdcard-stm32mp157a-ev1/bl2/stm32mp1_context.o: \
  plat/st/stm32mp1/stm32mp1_context.c include/lib/libc/string.h \
  include/lib/libc/stddef.h include/lib/libc/aarch32/stddef_.h \
  include/arch/aarch32/arch_helpers.h include/lib/libc/assert.h \

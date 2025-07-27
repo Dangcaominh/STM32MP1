@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp157d-dk1/bl2/stm32mp_common.o: \
+../build/opteemin-sdcard-stm32mp157d-dk1/bl2/stm32mp_common.o: \
  plat/st/common/stm32mp_common.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

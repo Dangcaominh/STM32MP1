@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-emmc-stm32mp157a-ev1/fdts/stm32mp157a-ev1-bl2.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-emmc-stm32mp157a-ev1/fdts/stm32mp157a-ev1-bl2.pre.dts
+../build/opteemin-emmc-stm32mp157a-ev1/fdts/stm32mp157a-ev1-bl2.dtb: ./../build/opteemin-emmc-stm32mp157a-ev1/fdts/stm32mp157a-ev1-bl2.pre.dts

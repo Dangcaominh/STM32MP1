@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157c-ed1/bl2/plat_bl2_mem_params_desc.o: \
+../build/optee-emmc-stm32mp157c-ed1/bl2/plat_bl2_mem_params_desc.o: \
  plat/st/stm32mp1/plat_bl2_mem_params_desc.c include/common/bl_common.h \
  include/common/ep_info.h include/common/param_header.h \
  include/lib/libc/stdbool.h include/lib/libc/stdint.h \

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157a-dk1/bl2/divdi3.o: \
+../build/optee-programmer-usb-stm32mp157a-dk1/bl2/divdi3.o: \
  lib/compiler-rt/builtins/divdi3.c lib/compiler-rt/builtins/int_lib.h \
  include/lib/libc/aarch32/float.h include/lib/libc/sys/cdefs.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \

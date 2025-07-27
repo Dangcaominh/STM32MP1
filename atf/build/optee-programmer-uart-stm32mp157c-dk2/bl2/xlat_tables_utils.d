@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157c-dk2/bl2/xlat_tables_utils.o: \
+../build/optee-programmer-uart-stm32mp157c-dk2/bl2/xlat_tables_utils.o: \
  lib/xlat_tables_v2/xlat_tables_utils.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

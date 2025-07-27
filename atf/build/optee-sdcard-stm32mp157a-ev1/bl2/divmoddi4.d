@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157a-ev1/bl2/divmoddi4.o: \
+../build/optee-sdcard-stm32mp157a-ev1/bl2/divmoddi4.o: \
  lib/compiler-rt/builtins/divmoddi4.c lib/compiler-rt/builtins/int_lib.h \
  include/lib/libc/aarch32/float.h include/lib/libc/sys/cdefs.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \

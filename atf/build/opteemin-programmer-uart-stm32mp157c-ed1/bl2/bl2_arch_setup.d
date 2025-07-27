@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-uart-stm32mp157c-ed1/bl2/bl2_arch_setup.o: \
+../build/opteemin-programmer-uart-stm32mp157c-ed1/bl2/bl2_arch_setup.o: \
  bl2/aarch32/bl2_arch_setup.c bl2/aarch32/../bl2_private.h \
  include/common/bl_common.h include/common/ep_info.h \
  include/common/param_header.h include/lib/libc/stdbool.h \

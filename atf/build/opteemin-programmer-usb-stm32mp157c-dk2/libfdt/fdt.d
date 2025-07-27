@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-usb-stm32mp157c-dk2/libfdt/fdt.o: \
+../build/opteemin-programmer-usb-stm32mp157c-dk2/libfdt/fdt.o: \
  lib/libfdt/fdt.c include/lib/libfdt/libfdt_env.h \
  include/lib/libc/stdbool.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/lib/libc/stdint.h \

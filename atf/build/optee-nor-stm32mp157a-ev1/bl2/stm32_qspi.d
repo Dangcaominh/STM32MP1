@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nor-stm32mp157a-ev1/bl2/stm32_qspi.o: \
+../build/optee-nor-stm32mp157a-ev1/bl2/stm32_qspi.o: \
  drivers/st/spi/stm32_qspi.c include/lib/libc/inttypes.h \
  include/lib/libc/aarch32/inttypes_.h include/lib/libc/stdint.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \

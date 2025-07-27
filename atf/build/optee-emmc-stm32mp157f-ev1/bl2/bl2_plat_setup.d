@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157f-ev1/bl2/bl2_plat_setup.o: \
+../build/optee-emmc-stm32mp157f-ev1/bl2/bl2_plat_setup.o: \
  plat/st/stm32mp1/bl2_plat_setup.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

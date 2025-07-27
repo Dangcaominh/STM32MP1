@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-dk2/fdts/stm32mp157f-dk2-fw-config.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-dk2/fdts/stm32mp157f-dk2-fw-config.pre.dts
+../build/optee-programmer-usb-stm32mp157f-dk2/fdts/stm32mp157f-dk2-fw-config.dtb: ./../build/optee-programmer-usb-stm32mp157f-dk2/fdts/stm32mp157f-dk2-fw-config.pre.dts

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-usb-stm32mp157c-ed1/bl2/udivmoddi4.o: \
+../build/opteemin-programmer-usb-stm32mp157c-ed1/bl2/udivmoddi4.o: \
  lib/compiler-rt/builtins/udivmoddi4.c lib/compiler-rt/builtins/int_lib.h \
  include/lib/libc/aarch32/float.h include/lib/libc/sys/cdefs.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nand-stm32mp157a-ev1/bl2/plat_common.o: \
+../build/optee-nand-stm32mp157a-ev1/bl2/plat_common.o: \
  plat/common/aarch32/plat_common.c \
  include/lib/xlat_tables/xlat_mmu_helpers.h include/lib/libc/stdbool.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

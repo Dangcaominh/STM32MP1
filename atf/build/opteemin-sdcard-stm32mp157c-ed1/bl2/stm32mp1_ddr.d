@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp157c-ed1/bl2/stm32mp1_ddr.o: \
+../build/opteemin-sdcard-stm32mp157c-ed1/bl2/stm32mp1_ddr.o: \
  drivers/st/ddr/stm32mp1_ddr.c include/lib/libc/errno.h \
  include/lib/libc/stddef.h include/lib/libc/aarch32/stddef_.h \
  include/arch/aarch32/arch.h include/lib/utils_def.h \

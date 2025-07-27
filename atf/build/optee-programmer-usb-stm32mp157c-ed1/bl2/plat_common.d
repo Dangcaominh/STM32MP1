@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ed1/bl2/plat_common.o: \
+../build/optee-programmer-usb-stm32mp157c-ed1/bl2/plat_common.o: \
  plat/common/aarch32/plat_common.c \
  include/lib/xlat_tables/xlat_mmu_helpers.h include/lib/libc/stdbool.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

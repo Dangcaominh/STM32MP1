@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nand-stm32mp157f-ev1/bl2/stm32mp1_reset.o: \
+../build/optee-nand-stm32mp157f-ev1/bl2/stm32mp1_reset.o: \
  drivers/st/reset/stm32mp1_reset.c include/lib/libc/errno.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \
  plat/st/stm32mp1/include/platform_def.h include/arch/aarch32/arch.h \

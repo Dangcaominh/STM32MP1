@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nor-stm32mp157a-ev1/bl2/plat_log_common.o: \
+../build/optee-nor-stm32mp157a-ev1/bl2/plat_log_common.o: \
  plat/common/plat_log_common.c include/common/debug.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/lib/libc/cdefs.h include/lib/libc/stdarg.h \

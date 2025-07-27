@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp157f-ev1/bl2/stm32mp1_clk.o: \
+../build/optee-sdcard-stm32mp157f-ev1/bl2/stm32mp1_clk.o: \
  drivers/st/clk/stm32mp1_clk.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

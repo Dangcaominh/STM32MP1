@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157c-ev1/libfdt/fdt_addresses.o: \
+../build/optee-programmer-uart-stm32mp157c-ev1/libfdt/fdt_addresses.o: \
  lib/libfdt/fdt_addresses.c include/lib/libfdt/libfdt_env.h \
  include/lib/libc/stdbool.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/lib/libc/stdint.h \

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp157f-ed1/bl2/stm32mp1_critic_power_wrapper.o: \
+../build/opteemin-sdcard-stm32mp157f-ed1/bl2/stm32mp1_critic_power_wrapper.o: \
  plat/st/stm32mp1/stm32mp1_critic_power_wrapper.S \
  plat/st/stm32mp1/include/platform_def.h include/arch/aarch32/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \

@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.dtb: \
- /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.dts \
+../build/optee-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.dtb: \
+ ../build/optee-programmer-uart-stm32mp135f-dk/fdts/stm32mp135f-dk-bl2.dts \
  fdts/stm32mp135f-dk.dts include/dt-bindings/clock/stm32mp13-clksrc.h \
  fdts/stm32mp135.dtsi fdts/stm32mp133.dtsi fdts/stm32mp131.dtsi \
  include/dt-bindings/clock/stm32mp13-clks.h \

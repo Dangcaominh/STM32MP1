@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-emmc-stm32mp157f-ed1/fdts/stm32mp157f-ed1-fw-config.dtb: \
+../build/opteemin-emmc-stm32mp157f-ed1/fdts/stm32mp157f-ed1-fw-config.dtb: \
  fdts/stm32mp157f-ed1-fw-config.dts fdts/stm32mp15-fw-config.dtsi \
  include/common/tbbr/tbbr_img_def.h \
  include/export/common/tbbr/tbbr_img_def_exp.h \

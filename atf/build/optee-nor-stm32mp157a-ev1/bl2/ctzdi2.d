@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nor-stm32mp157a-ev1/bl2/ctzdi2.o: \
+../build/optee-nor-stm32mp157a-ev1/bl2/ctzdi2.o: \
  lib/compiler-rt/builtins/ctzdi2.c lib/compiler-rt/builtins/int_lib.h \
  include/lib/libc/aarch32/float.h include/lib/libc/sys/cdefs.h \
  include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \

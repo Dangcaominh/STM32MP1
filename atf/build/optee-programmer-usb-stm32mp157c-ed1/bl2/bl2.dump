@@ -1,6 +1,6 @@
 
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ed1/bl2/bl2.elf:     file format elf32-littlearm
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ed1/bl2/bl2.elf
+../build/optee-programmer-usb-stm32mp157c-ed1/bl2/bl2.elf:     file format elf32-littlearm
+../build/optee-programmer-usb-stm32mp157c-ed1/bl2/bl2.elf
 architecture: armv7, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
 start address 0x2ffe9000
@@ -20678,13 +20678,13 @@ Disassembly of section .ro:
 
 2fff5f10 <version_string>:
 2fff5f10:	3276 312e 2d30 7473 336d 6d32 3170 722d     v2.10-stm32mp1-r
-2fff5f20:	2e32 2830 6564 7562 2967 333a 6437 3436     2.0(debug):37d64
-2fff5f30:	3265 6561 642d 7269 7974 3328 6437 3436     e2ae-dirty(37d64
-2fff5f40:	3265 2961                                    e2a).
+2fff5f20:	2e32 2830 6564 7562 2967 393a 6630 6535     2.0(debug):90f5e
+2fff5f30:	6236 3863 642d 7269 7974 3928 6630 6535     6bc8-dirty(90f5e
+2fff5f40:	6236 2963                                    6bc).
 
 2fff5f45 <build_message>:
-2fff5f45:	7542 6c69 2074 203a 3331 343a 3a32 3634     Built : 13:42:46
-2fff5f55:	202c 754a 206c 3632 3220 3230 0035 6c62     , Jul 26 2025.bl
+2fff5f45:	7542 6c69 2074 203a 3630 333a 3a30 3333     Built : 06:30:33
+2fff5f55:	202c 754a 206c 3732 3220 3230 0035 6c62     , Jul 27 2025.bl
 2fff5f65:	2f32 6c62 5f32 6d69 6761 5f65 6f6c 6461     2/bl2_image_load
 2fff5f75:	765f 2e32 0063 421e 324c 203a 6c50 7461     _v2.c..BL2: Plat
 2fff5f85:	6f66 6d72 7320 7465 7075 6120 726c 6165     form setup alrea

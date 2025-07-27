@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nand-stm32mp157d-ev1/fdts/stm32mp157d-ev1-bl2.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-nand-stm32mp157d-ev1/fdts/stm32mp157d-ev1-bl2.pre.dts
+../build/optee-nand-stm32mp157d-ev1/fdts/stm32mp157d-ev1-bl2.dtb: ./../build/optee-nand-stm32mp157d-ev1/fdts/stm32mp157d-ev1-bl2.pre.dts

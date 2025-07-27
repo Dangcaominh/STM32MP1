@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp157f-dk2/bl2/bl2/bl2_el3.ld: \
+../build/opteemin-sdcard-stm32mp157f-dk2/bl2/bl2/bl2_el3.ld: \
  bl2/bl2_el3.ld.S include/common/bl_common.ld.h \
  plat/st/stm32mp1/include/platform_def.h include/arch/aarch32/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \

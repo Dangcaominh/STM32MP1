@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-uart-stm32mp157d-dk1/bl2/stm32mp1_ddr.o: \
+../build/optee-programmer-uart-stm32mp157d-dk1/bl2/stm32mp1_ddr.o: \
  drivers/st/ddr/stm32mp1_ddr.c include/lib/libc/errno.h \
  include/lib/libc/stddef.h include/lib/libc/aarch32/stddef_.h \
  include/arch/aarch32/arch.h include/lib/utils_def.h \

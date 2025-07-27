@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-uart-stm32mp157c-ev1/bl2/stm32mp_clkfunc.o: \
+../build/opteemin-programmer-uart-stm32mp157c-ev1/bl2/stm32mp_clkfunc.o: \
  drivers/st/clk/stm32mp_clkfunc.c include/lib/libc/errno.h \
  include/arch/aarch32/arch_helpers.h include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-ev1/bl2/plat_ddr.o: \
+../build/optee-programmer-usb-stm32mp157f-ev1/bl2/plat_ddr.o: \
  plat/st/stm32mp1/plat_ddr.c include/lib/libc/errno.h \
  include/lib/libfdt/libfdt.h include/lib/libfdt/libfdt_env.h \
  include/lib/libc/stdbool.h include/lib/libc/stddef.h \

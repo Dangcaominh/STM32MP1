@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.dtb: \
+../build/optee-programmer-usb-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.dtb: \
  fdts/stm32mp135f-dk-fw-config.dts fdts/stm32mp13-fw-config.dtsi \
  include/common/tbbr/tbbr_img_def.h \
  include/export/common/tbbr/tbbr_img_def_exp.h \

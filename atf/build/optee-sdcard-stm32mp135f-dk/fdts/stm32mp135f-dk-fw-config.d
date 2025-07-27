@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.dtb: /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-sdcard-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.pre.dts
+../build/optee-sdcard-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.dtb: ./../build/optee-sdcard-stm32mp135f-dk/fdts/stm32mp135f-dk-fw-config.pre.dts

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-sdcard-stm32mp157d-dk1/bl2/platform_up_stack.o: \
+../build/opteemin-sdcard-stm32mp157d-dk1/bl2/platform_up_stack.o: \
  plat/common/aarch32/platform_up_stack.S include/arch/aarch32/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/arch/aarch32/asm_macros.S include/common/asm_macros_common.S \

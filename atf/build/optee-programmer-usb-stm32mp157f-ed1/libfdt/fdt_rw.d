@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157f-ed1/libfdt/fdt_rw.o: \
+../build/optee-programmer-usb-stm32mp157f-ed1/libfdt/fdt_rw.o: \
  lib/libfdt/fdt_rw.c include/lib/libfdt/libfdt_env.h \
  include/lib/libc/stdbool.h include/lib/libc/stddef.h \
  include/lib/libc/aarch32/stddef_.h include/lib/libc/stdint.h \

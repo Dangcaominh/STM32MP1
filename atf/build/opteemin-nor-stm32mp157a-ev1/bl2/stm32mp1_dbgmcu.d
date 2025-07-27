@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-nor-stm32mp157a-ev1/bl2/stm32mp1_dbgmcu.o: \
+../build/opteemin-nor-stm32mp157a-ev1/bl2/stm32mp1_dbgmcu.o: \
  plat/st/stm32mp1/stm32mp1_dbgmcu.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

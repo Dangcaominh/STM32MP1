@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-emmc-stm32mp157c-ev1/bl2/plat_ddr.o: \
+../build/opteemin-emmc-stm32mp157c-ev1/bl2/plat_ddr.o: \
  plat/st/stm32mp1/plat_ddr.c include/lib/libc/errno.h \
  include/lib/libfdt/libfdt.h include/lib/libfdt/libfdt_env.h \
  include/lib/libc/stdbool.h include/lib/libc/stddef.h \

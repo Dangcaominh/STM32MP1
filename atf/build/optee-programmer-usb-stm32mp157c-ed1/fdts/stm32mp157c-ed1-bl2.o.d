@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ed1/fdts/stm32mp157c-ed1-bl2.dtb: \
- /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp157c-ed1/fdts/stm32mp157c-ed1-bl2.dts \
+../build/optee-programmer-usb-stm32mp157c-ed1/fdts/stm32mp157c-ed1-bl2.dtb: \
+ ../build/optee-programmer-usb-stm32mp157c-ed1/fdts/stm32mp157c-ed1-bl2.dts \
  fdts/stm32mp157c-ed1.dts fdts/stm32mp157.dtsi fdts/stm32mp153.dtsi \
  fdts/stm32mp151.dtsi include/dt-bindings/interrupt-controller/arm-gic.h \
  include/dt-bindings/interrupt-controller/irq.h \

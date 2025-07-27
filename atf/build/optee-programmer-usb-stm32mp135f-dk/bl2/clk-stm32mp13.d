@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-programmer-usb-stm32mp135f-dk/bl2/clk-stm32mp13.o: \
+../build/optee-programmer-usb-stm32mp135f-dk/bl2/clk-stm32mp13.o: \
  drivers/st/clk/clk-stm32mp13.c include/lib/libc/assert.h \
  include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

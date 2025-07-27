@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/opteemin-programmer-usb-stm32mp157d-dk1/bl2/io_mtd.o: \
+../build/opteemin-programmer-usb-stm32mp157d-dk1/bl2/io_mtd.o: \
  drivers/io/io_mtd.c include/lib/libc/assert.h include/lib/libc/cdefs.h \
  include/common/debug.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \

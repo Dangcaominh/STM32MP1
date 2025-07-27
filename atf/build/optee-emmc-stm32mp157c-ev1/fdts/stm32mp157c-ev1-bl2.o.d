@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157c-ev1/fdts/stm32mp157c-ev1-bl2.dtb: \
- /home/dangcaominh/STM32MP1/atf/stm32mp1_atf/../build/optee-emmc-stm32mp157c-ev1/fdts/stm32mp157c-ev1-bl2.dts \
+../build/optee-emmc-stm32mp157c-ev1/fdts/stm32mp157c-ev1-bl2.dtb: \
+ ../build/optee-emmc-stm32mp157c-ev1/fdts/stm32mp157c-ev1-bl2.dts \
  fdts/stm32mp157c-ev1.dts fdts/stm32mp157c-ed1.dts fdts/stm32mp157.dtsi \
  fdts/stm32mp153.dtsi fdts/stm32mp151.dtsi \
  include/dt-bindings/interrupt-controller/arm-gic.h \
