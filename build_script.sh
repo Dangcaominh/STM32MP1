@@ -70,6 +70,7 @@ function print_build_complete() {
 function cleanup_directories() {
     echo "Cleaning up build directories..."
 }
+    
 
 # Build ARM Trusted Firmware
 function build_atf() 
