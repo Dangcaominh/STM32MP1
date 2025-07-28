@@ -1,0 +1,29 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 20,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "stm32mp157d-dk1",
+            "displayName": "stm32mp157d_dk1 config",
+            "description": "Pre-release FPGA build config for pre-bring up silicon",
+            "generator": "Ninja",
+            "environment": {},
+            "cacheVariables": {
+                "CONF_FILE": "prj.conf",
+                "BOARD": "stm32mp157c_dk2"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "stm32mp157d-dk1",
+            "configurePreset": "stm32mp157d-dk1"
+        }
+    ],
+    "testPresets": [],
+    "vendor": {}
+}

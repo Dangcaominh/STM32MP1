@@ -1,0 +1,44 @@
+cmake:
+  application:
+    configuration-dir: '/home/dangcaominh/STM32MP1/zephyr/samples/basic/blinky'
+    source-dir: '/home/dangcaominh/STM32MP1/zephyr/samples/basic/blinky'
+  board:
+    name: 'stm32mp157c_dk2'
+    path:
+     - '/home/dangcaominh/STM32MP1/zephyr/boards/st/stm32mp157c_dk2'
+    qualifiers: 'stm32mp157cxx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/bindings'
+    files:
+     - '/home/dangcaominh/STM32MP1/zephyr/boards/st/stm32mp157c_dk2/stm32mp157c_dk2.dts'
+    include-dirs:
+     - '/home/dangcaominh/STM32MP1/zephyr/modules/hal/stm32/dts'
+     - '/home/dangcaominh/STM32MP1/zephyr/include'
+     - '/home/dangcaominh/STM32MP1/zephyr/include/zephyr'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/common'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/vendor'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/rx'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/x86'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/xtensa'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/sparc'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/riscv'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/posix'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/arm64'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/arm'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts/arc'
+     - '/home/dangcaominh/STM32MP1/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/dangcaominh/STM32MP1/zephyr/boards/st/stm32mp157c_dk2/stm32mp157c_dk2_defconfig'
+     - '/home/dangcaominh/STM32MP1/zephyr/samples/basic/blinky/prj.conf'
+    user-files:
+     - 'prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/dangcaominh/zephyr-sdk-0.17.2'
+  zephyr:
+    version: '4.2.99'
+    zephyr-base: '/home/dangcaominh/STM32MP1/zephyr'
+version: '0.1.0'

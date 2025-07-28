@@ -72,6 +72,55 @@ function cleanup_directories() {
 }
     
 
+function build_zephyr()
+{
+    revision=$BOARD
+    optional=$BUILD_OPTION
+	select_shield=""
+	cd zephyr
+
+	# Remove build folder if existed
+	rm -rf ./build
+	export ZEPHYR_BASE=zephyr
+	# export ZEPHYR_TOOLCHAIN_VARIANT=cross-compile
+	# export CROSS_COMPILE=/usr/bin/arm-zephyr-eabi-
+
+	source ./zephyr-env.sh
+
+	if [ -z "$optional" ]; then
+        cmake --preset $revision \
+              -GNinja \
+              -DSYSROOT_DIR=/usr/lib/arm-zephyr-eabi/newlib/ \
+              -DBUILD_VERSION=1.0.0 \
+              -DZEPHYR_MODULES="$ZEPHYR_BASE/modules/hal/cmsis_6;$ZEPHYR_BASE/modules/hal/stm32" \
+              -S samples/basic/blinky \
+              -B "$PWD/build/$revision" \
+              -DCMAKE_READELF=/usr/bin/readelf
+		cmake --build build/$revision
+	else
+		if [ "$optional" != "menuconfig" ] && [ "$optional" != "guiconfig" ]; then
+			echo "Incorrect optional input: $optional!"
+			echo "Either menuconfig or guiconfig"
+			exit
+		fi
+        cmake --preset $revision \
+              -GNinja \
+              -DSYSROOT_DIR=/usr/lib/arm-zephyr-eabi/newlib/ \
+              -DBUILD_VERSION=1.0.0 \
+              -DZEPHYR_MODULES="$ZEPHYR_BASE/modules/hal/cmsis_6;$ZEPHYR_BASE/modules/hal/stm32" \
+              -S samples/basic/blinky \
+              -B "$PWD/build/$revision" \
+              -DCMAKE_READELF=/usr/bin/readelf
+        ninja -C build/$revision $optional
+        cmake --build build/$revision
+	fi
+
+	cd build/$revision
+	cp compile_commands.json ../
+
+	print_build_complete
+}
+
 # Build ARM Trusted Firmware
 function build_atf() 
 {
@@ -222,6 +271,9 @@ case $COMPONENT in
         ;;
     "uboot")
         build_uboot
+        ;;
+    "zephyr")
+        build_zephyr
         ;;
     "all")
         build_atf

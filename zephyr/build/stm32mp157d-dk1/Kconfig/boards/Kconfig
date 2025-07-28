@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "/home/dangcaominh/STM32MP1/zephyr/boards/st/stm32mp157c_dk2/Kconfig"
