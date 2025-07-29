@@ -36,8 +36,8 @@ cmake:
     user-files:
      - 'prj.conf'
   toolchain:
-    name: 'zephyr'
-    path: '/home/dangcaominh/zephyr-sdk-0.17.2'
+    name: 'cross-compile'
+    path: ''
   zephyr:
     version: '4.2.99'
     zephyr-base: '/home/dangcaominh/STM32MP1/zephyr'

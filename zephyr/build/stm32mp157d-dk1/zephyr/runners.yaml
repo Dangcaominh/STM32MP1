@@ -15,11 +15,6 @@ config:
   elf_file: zephyr.elf
   hex_file: zephyr.hex
   bin_file: zephyr.bin
-  # Host tools:
-  gdb: /home/dangcaominh/zephyr-sdk-0.17.2/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py
-  openocd: /home/dangcaominh/zephyr-sdk-0.17.2/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
-  openocd_search:
-    - /home/dangcaominh/zephyr-sdk-0.17.2/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
 
 # Runner specific arguments
 args:

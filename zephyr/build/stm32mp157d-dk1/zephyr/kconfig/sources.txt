@@ -215,6 +215,7 @@
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/Kconfig/soc/Kconfig
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/Kconfig/soc/Kconfig.defconfig
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/Kconfig/soc/Kconfig.soc
+/home/dangcaominh/STM32MP1/zephyr/cmake/toolchain/cross-compile/Kconfig
 /home/dangcaominh/STM32MP1/zephyr/drivers/Kconfig
 /home/dangcaominh/STM32MP1/zephyr/drivers/adc/Kconfig
 /home/dangcaominh/STM32MP1/zephyr/drivers/adc/Kconfig.ad405x
@@ -3850,4 +3851,3 @@
 /home/dangcaominh/STM32MP1/zephyr/subsys/usb/host/Kconfig.usbip
 /home/dangcaominh/STM32MP1/zephyr/subsys/usb/usb_c/Kconfig
 /home/dangcaominh/STM32MP1/zephyr/subsys/zbus/Kconfig
-/home/dangcaominh/zephyr-sdk-0.17.2/cmake/zephyr/Kconfig

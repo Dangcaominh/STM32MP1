@@ -1,6 +1,6 @@
-# 0 "/home/dangcaominh/STM32MP1/zephyr/misc/empty_file.c"
-# 0 "<built-in>"
-# 0 "<command-line>"
+# 1 "/home/dangcaominh/STM32MP1/zephyr/misc/empty_file.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
 # 1 "/home/dangcaominh/STM32MP1/zephyr/boards/st/stm32mp157c_dk2/stm32mp157c_dk2.dts" 1
 
 
@@ -5720,5 +5720,5 @@ arduino_spi: &spi4 {};
  status = "okay";
  clock-frequency = <400000>;
 };
-# 0 "<command-line>" 2
+# 1 "<command-line>" 2
 # 1 "/home/dangcaominh/STM32MP1/zephyr/misc/empty_file.c"

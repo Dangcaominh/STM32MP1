@@ -1,3 +1,6 @@
 images/*
 kernel/build/*
+zephyr/build/*
+zephyr/out/*
 build/*
+.vscode/*

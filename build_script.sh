@@ -80,10 +80,10 @@ function build_zephyr()
 	cd zephyr
 
 	# Remove build folder if existed
-	rm -rf ./build
+	rm -rf ./build/$revision
 	export ZEPHYR_BASE=zephyr
-	# export ZEPHYR_TOOLCHAIN_VARIANT=cross-compile
-	# export CROSS_COMPILE=/usr/bin/arm-zephyr-eabi-
+    export ZEPHYR_TOOLCHAIN_VARIANT=cross-compile
+	export CROSS_COMPILE=/usr/bin/arm-none-eabi-
 
 	source ./zephyr-env.sh
 

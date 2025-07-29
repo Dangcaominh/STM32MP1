@@ -59,9 +59,9 @@
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/crc/CMakeFiles/rebuild_cache.dir
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/CMakeFiles/edit_cache.dir
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/CMakeFiles/rebuild_cache.dir
-/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/picolibc/CMakeFiles/lib__libc__picolibc.dir
-/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/picolibc/CMakeFiles/edit_cache.dir
-/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/picolibc/CMakeFiles/rebuild_cache.dir
+/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/minimal/CMakeFiles/lib__libc__minimal.dir
+/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/minimal/CMakeFiles/edit_cache.dir
+/home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/minimal/CMakeFiles/rebuild_cache.dir
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/common/CMakeFiles/lib__libc__common.dir
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/common/CMakeFiles/edit_cache.dir
 /home/dangcaominh/STM32MP1/zephyr/build/stm32mp157d-dk1/zephyr/lib/libc/common/CMakeFiles/rebuild_cache.dir
