@@ -1,0 +1,14 @@
+# .clangd
+CompileFlags:
+  Compiler: /usr/bin/arm-none-eabi-gcc
+  Remove:
+    - "-mfp16-format=ieee"
+    - "-fno-reorder-functions"
+    - "--param=min-pagesize=0"
+    - "-fno-defer-pop"
+    - "-fmacro-prefix-map=*"
+    - "-specs=picolibc.specs"
+
+Diagnostics:
+  Suppress:
+    - "drv_unknown_argument"
