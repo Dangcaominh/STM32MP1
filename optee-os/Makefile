@@ -176,7 +176,7 @@ $(foreach config, $(OPTEE_CONFIG), \
 
 fip: $(optee-deploy)
 	for fipconfig in $(FIP_CONFIG) ; do \
-		FIP_DEPLOYDIR_OPTEE=$(DEPLOYDIR) FIP_CONFIG="$$fipconfig" $(if $(CFG_EMBED_DTB_SOURCE_FILE),FIP_DEVICETREE="$(CFG_EMBED_DTB_SOURCE_FILE)") $(FIPTOOLDIR)/fiptool-stm32mp.stm32mp1 || exit 1;\
+		FIP_DEPLOYDIR_OPTEE=$(DEPLOYDIR) FIP_CONFIG="$$fipconfig" $(if $(CFG_EMBED_DTB_SOURCE_FILE),FIP_DEVICETREE="$(CFG_EMBED_DTB_SOURCE_FILE)") $(FIPTOOLDIR)/fiptool.sh || exit 1;\
 	done
 
 optee: $(optee-deploy)

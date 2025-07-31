@@ -181,7 +181,7 @@ clean:
 
 fip: $(deploy-targets)
 	for fipconfig in $(FIP_CONFIG) ; do \
-		FIP_DEPLOYDIR_UBOOT=$(DEPLOYDIR) FIP_CONFIG="$$fipconfig" $(if $(DEVICE_TREE),FIP_DEVICETREE="$(DEVICE_TREE)") $(FIPTOOLDIR)/fiptool-stm32mp.stm32mp1 || exit 1; \
+		FIP_DEPLOYDIR_UBOOT=$(DEPLOYDIR) FIP_CONFIG="$$fipconfig" $(if $(DEVICE_TREE),FIP_DEVICETREE="$(DEVICE_TREE)") $(FIPTOOLDIR)/fiptool.sh || exit 1; \
 	done
 
 version:

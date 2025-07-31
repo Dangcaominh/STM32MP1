@@ -1,2 +1,0 @@
-#include "stm32mp157d-dk1.dts"
-#include "stm32mp15-bl2.dtsi"

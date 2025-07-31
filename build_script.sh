@@ -62,7 +62,7 @@ esac
 function print_build_complete() {
     echo "========================================================================================"
     echo "  Building $COMPONENT for board: $BOARD (SOC: $SOC_TYPE) completed successfully!"
-    echo "                  Output directory: $FIP_DEPLOYDIR_ROOT"
+    echo "                  Output directory: $OUTPUT_BUILD_DIR"
     echo "========================================================================================"
 }
 
@@ -130,7 +130,7 @@ function build_atf()
     export DEPLOYDIR=$PWD/images/stm32mp1/arm-trusted-firmware
     export FIP_DEPLOYDIR_ROOT=$PWD/images/stm32mp1
     export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree
-    pushd atf/stm32mp1_atf
+    pushd atf/atf
     case "$BUILD_OPTION" in
         "help")
             make -f $PWD/../Makefile EXTDT_DIR=${EXTDT_DIR} help
@@ -165,7 +165,25 @@ function build_atf()
 
 # Build OP-TEE OS
 function build_optee() {
-    echo "Building OP-TEE OS..."
+    source env_setup.sh
+    export OUT_OF_TREE_MODULE=STM32MP157D-DK1
+    export DEPLOYDIR=$PWD/images/stm32mp1/optee
+    export FIP_DEPLOYDIR_ROOT=$PWD/images/stm32mp1
+    export EXTDT_DIR=../../${OUT_OF_TREE_MODULE}/CA7/DeviceTree
+    pushd optee-os/optee-os
+    case "$BUILD_OPTION" in
+        "menuconfig")
+            ;;
+        "clean")
+            make -f $PWD/../Makefile clean
+            ;;
+        *)
+            make -f $PWD/../Makefile DEPLOYDIR=$FIP_DEPLOYDIR_ROOT/optee \
+            CFG_EMBED_DTB_SOURCE_FILE=stm32mp157f-ev1 \
+            EXTDT_DIR=$EXTDT_DIR EXTDT_DIR_OPTEE_SERIAL=ca7-td/optee optee
+            ;;
+    esac
+    popd
 }
 
 # Build Linux Kernel
