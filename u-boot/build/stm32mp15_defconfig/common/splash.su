@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/splash.c:90:12:splash_screen_prepare	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/splash.c:99:6:splash_get_pos	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/splash.c:130:6:splash_display_banner	216	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/splash.c:160:5:splash_display	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/splash.c:90:12:splash_screen_prepare	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/splash.c:99:6:splash_get_pos	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/splash.c:130:6:splash_display_banner	216	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/splash.c:160:5:splash_display	32	static

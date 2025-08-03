@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fwu_mdata.c:49:5:do_fwu_mdata_read	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/fwu_mdata.c:49:5:do_fwu_mdata_read	24	static

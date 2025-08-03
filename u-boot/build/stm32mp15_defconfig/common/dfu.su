@@ -1,1 +1,1 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/dfu.c:23:5:run_usb_dnl_gadget	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/dfu.c:23:5:run_usb_dnl_gadget	40	static

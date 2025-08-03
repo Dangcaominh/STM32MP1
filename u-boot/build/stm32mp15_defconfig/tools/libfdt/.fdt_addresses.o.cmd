@@ -1,10 +1,10 @@
-cmd_tools/libfdt/fdt_addresses.o := cc -Wp,-MD,tools/libfdt/.fdt_addresses.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -c -o tools/libfdt/fdt_addresses.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/libfdt/fdt_addresses.c
+cmd_tools/libfdt/fdt_addresses.o := cc -Wp,-MD,tools/libfdt/.fdt_addresses.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -c -o tools/libfdt/fdt_addresses.o /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/libfdt/fdt_addresses.c
 
-source_tools/libfdt/fdt_addresses.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/libfdt/fdt_addresses.c
+source_tools/libfdt/fdt_addresses.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/libfdt/fdt_addresses.c
 
 deps_tools/libfdt/fdt_addresses.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stddef.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \
@@ -96,10 +96,10 @@ deps_tools/libfdt/fdt_addresses.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/timex.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_tm.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_itimerspec.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/fdt_host.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../include/linux/libfdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../include/linux/../../scripts/dtc/libfdt/libfdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../include/linux/../../scripts/dtc/libfdt/libfdt_env.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/fdt_host.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../include/linux/libfdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../include/linux/../../scripts/dtc/libfdt/libfdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../include/linux/../../scripts/dtc/libfdt/libfdt_env.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/limits.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/syslimits.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/limits.h \
@@ -110,8 +110,8 @@ deps_tools/libfdt/fdt_addresses.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/posix2_lim.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/xopen_lim.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/uio_lim.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../include/linux/../../scripts/dtc/libfdt/fdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../include/fdt_support.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../include/linux/../../scripts/dtc/libfdt/fdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../include/fdt_support.h \
     $(wildcard include/config/of/libfdt.h) \
     $(wildcard include/config/of/control.h) \
     $(wildcard include/config/arch/fixup/fdt/memory.h) \
@@ -127,11 +127,11 @@ deps_tools/libfdt/fdt_addresses.o := \
     $(wildcard include/config/fman/enet.h) \
     $(wildcard include/config/fsl/mc/enet.h) \
     $(wildcard include/config/cmd/pstore.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../scripts/dtc/libfdt/fdt_addresses.c \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../scripts/dtc/libfdt/libfdt_env.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/fdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/libfdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../scripts/dtc/libfdt/libfdt_internal.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../scripts/dtc/libfdt/fdt_addresses.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../scripts/dtc/libfdt/libfdt_env.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/fdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/libfdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../scripts/dtc/libfdt/libfdt_internal.h \
 
 tools/libfdt/fdt_addresses.o: $(deps_tools/libfdt/fdt_addresses.o)
 

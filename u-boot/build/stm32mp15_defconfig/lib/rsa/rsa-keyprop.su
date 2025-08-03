@@ -1,6 +1,6 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:95:17:GT	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:167:17:br_i32_word	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:216:13:br_i32_decode	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:397:17:br_divrem	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:628:6:rsa_free_key_prop	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-keyprop.c:653:5:rsa_gen_key_prop	152	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:95:17:GT	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:167:17:br_i32_word	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:216:13:br_i32_decode	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:397:17:br_divrem	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:628:6:rsa_free_key_prop	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-keyprop.c:653:5:rsa_gen_key_prop	152	static

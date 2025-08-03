@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/gadget/config.c:34:1:usb_descriptor_fillbuf	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/gadget/config.c:76:5:usb_gadget_config_buf	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/usb/gadget/config.c:34:1:usb_descriptor_fillbuf	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/usb/gadget/config.c:76:5:usb_gadget_config_buf	16	static

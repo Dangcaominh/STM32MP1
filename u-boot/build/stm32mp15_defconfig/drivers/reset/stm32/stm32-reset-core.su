@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-core.c:14:12:stm32_reset_update	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-core.c:64:12:stm32_reset_deassert	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-core.c:59:12:stm32_reset_assert	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/reset/stm32/stm32-reset-core.c:74:5:stm32_reset_core_probe	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/reset/stm32/stm32-reset-core.c:14:12:stm32_reset_update	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/reset/stm32/stm32-reset-core.c:64:12:stm32_reset_deassert	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/reset/stm32/stm32-reset-core.c:59:12:stm32_reset_assert	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/reset/stm32/stm32-reset-core.c:74:5:stm32_reset_core_probe	16	static

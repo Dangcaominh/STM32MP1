@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/autoboot.c:447:13:bootdelay_process	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/autoboot.c:496:6:autoboot_command	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/autoboot.c:447:13:bootdelay_process	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/autoboot.c:496:6:autoboot_command	32	static

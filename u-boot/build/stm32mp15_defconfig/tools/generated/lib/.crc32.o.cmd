@@ -1,10 +1,10 @@
-cmd_tools/generated/lib/crc32.o := cc -Wp,-MD,tools/generated/lib/.crc32.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -pedantic -c -o tools/generated/lib/crc32.o tools/generated/lib/crc32.c
+cmd_tools/generated/lib/crc32.o := cc -Wp,-MD,tools/generated/lib/.crc32.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -pedantic -c -o tools/generated/lib/crc32.o tools/generated/lib/crc32.c
 
 source_tools/generated/lib/crc32.o := tools/generated/lib/crc32.c
 
 deps_tools/generated/lib/crc32.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stddef.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \
@@ -96,7 +96,7 @@ deps_tools/generated/lib/crc32.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/timex.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_tm.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_itimerspec.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/../lib/crc32.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/../lib/crc32.c \
     $(wildcard include/config/hw/watchdog.h) \
     $(wildcard include/config/watchdog.h) \
     $(wildcard include/config/dynamic/crc/table.h) \
@@ -121,9 +121,9 @@ deps_tools/generated/lib/crc32.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/asm-generic/sockios.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_osockaddr.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/in.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/u-boot/crc.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/u-boot/zlib.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/u-boot/crc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/u-boot/zlib.h \
 
 tools/generated/lib/crc32.o: $(deps_tools/generated/lib/crc32.o)
 

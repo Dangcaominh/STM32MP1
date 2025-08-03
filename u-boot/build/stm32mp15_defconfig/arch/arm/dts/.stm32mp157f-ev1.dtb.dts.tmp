@@ -1,12 +1,12 @@
 # 0 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h" 1
 
 
 
 # 1 "include/generated/autoconf.h" 1
-# 5 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h" 2
+# 5 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h" 2
 # 0 "<command-line>" 2
 # 1 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp"
 
@@ -16,7 +16,7 @@
 
 /dts-v1/;
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 1
 
 
 
@@ -24,37 +24,37 @@
 
 /dts-v1/;
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157.dtsi" 1
 
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp153.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp153.dtsi" 1
 
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp151.dtsi" 1
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/arm-gic.h" 1
-# 9 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/arm-gic.h"
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/irq.h" 1
-# 10 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/interrupt-controller/arm-gic.h" 2
-# 7 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/clock/stm32mp1-clks.h" 1
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/gpio/gpio.h" 1
-# 9 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/reset/stm32mp1-resets.h" 1
-# 10 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp151.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 7 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp151.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/clock/stm32mp1-clks.h" 1
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp151.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/gpio/gpio.h" 1
+# 9 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp151.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/reset/stm32mp1-resets.h" 1
+# 10 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp151.dtsi" 2
 
 / {
  #address-cells = <1>;
@@ -2357,7 +2357,7 @@
   };
  };
 };
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp153.dtsi" 2
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp153.dtsi" 2
 
 / {
  cpus {
@@ -2413,7 +2413,7 @@
   status = "disabled";
  };
 };
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157.dtsi" 2
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157.dtsi" 2
 
 / {
  soc {
@@ -2455,15 +2455,15 @@
   };
  };
 };
-# 9 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xf.dtsi" 1
+# 9 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15xf.dtsi" 1
 
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xd.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15xd.dtsi" 1
 
 
 
@@ -2492,7 +2492,7 @@
   };
  };
 };
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xf.dtsi" 2
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15xf.dtsi" 2
 
 &etzpc {
  cryp1: cryp@54001000 {
@@ -2508,17 +2508,17 @@
   status = "disabled";
  };
 };
-# 10 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 1
+# 10 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 1
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/pinctrl/stm32-pinfunc.h" 1
-# 7 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/pinctrl/stm32mp15-hdp.h" 1
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/pinctrl/stm32-pinfunc.h" 1
+# 7 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/pinctrl/stm32mp15-hdp.h" 1
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-pinctrl.dtsi" 2
 
 &hdp {
  hdp2_gpo: hdp2-pins {
@@ -5432,8 +5432,8 @@
   };
  };
 };
-# 11 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15xxaa-pinctrl.dtsi" 1
+# 11 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15xxaa-pinctrl.dtsi" 1
 
 
 
@@ -5519,8 +5519,8 @@
   gpio-ranges = <&pinctrl_z 0 400 8>;
  };
 };
-# 12 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-m4-srm.dtsi" 1
+# 12 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-m4-srm.dtsi" 1
 
 
 
@@ -5968,8 +5968,8 @@
   };
  };
 };
-# 13 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-m4-srm-pinctrl.dtsi" 1
+# 13 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-m4-srm-pinctrl.dtsi" 1
 
 
 
@@ -6494,15 +6494,15 @@
   };
  };
 };
-# 14 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ed1-scmi.dtsi" 1
+# 14 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ed1-scmi.dtsi" 1
 
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-scmi.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-scmi.dtsi" 1
 
 
 
@@ -6542,7 +6542,7 @@
 /delete-node/ &clk_lse;
 /delete-node/ &clk_lsi;
 /delete-node/ &clk_csi;
-# 8 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ed1-scmi.dtsi" 2
+# 8 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ed1-scmi.dtsi" 2
 
 / {
  reserved-memory {
@@ -6635,10 +6635,10 @@
 &usart1 {
  clocks = <&scmi_clk 20>;
 };
-# 15 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 15 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/mfd/st,stpmic1.h" 1
-# 17 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/mfd/st,stpmic1.h" 1
+# 17 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ed1.dts" 2
 
 / {
  model = "STMicroelectronics STM32MP157F eval daughter";
@@ -7069,7 +7069,7 @@
  phy-supply = <&vdd_usb>;
 };
 # 9 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ev1-scmi.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ev1-scmi.dtsi" 1
 
 
 
@@ -7168,12 +7168,12 @@
 };
 # 10 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp" 2
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/input/input.h" 1
-# 12 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/input/input.h"
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/input/linux-event-codes.h" 1
-# 13 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/input/input.h" 2
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/input/input.h" 1
+# 12 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/input/input.h"
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/input/linux-event-codes.h" 1
+# 13 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/input/input.h" 2
 # 12 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp" 2
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dt-bindings/media/video-interfaces.h" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dt-bindings/media/video-interfaces.h" 1
 # 13 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp" 2
 
 / {
@@ -7997,25 +7997,25 @@
  st,tune-hs-rx-offset = <2>;
  st,no-lsfs-sc;
 };
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ev1-u-boot.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ev1-u-boot.dtsi" 1
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi" 1
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ed1-u-boot.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ed1-u-boot.dtsi" 1
 
 
 
 
 
-# 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp15-scmi-u-boot.dtsi" 1
+# 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp15-scmi-u-boot.dtsi" 1
 
 
 
@@ -8189,7 +8189,7 @@
 &uart8{
  resets = <&rcc 19475>;
 };
-# 7 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ed1-u-boot.dtsi" 2
+# 7 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ed1-u-boot.dtsi" 2
 
 / {
  aliases {
@@ -8227,7 +8227,7 @@
   bias-pull-up;
  };
 };
-# 7 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi" 2
+# 7 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi" 2
 
 / {
  aliases {
@@ -8251,7 +8251,7 @@
   compatible = "fixed-partitions";
   #address-cells = <1>;
   #size-cells = <1>;
-# 53 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi"
+# 53 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi"
   partition@0 {
    label = "fsbl1";
    reg = <0x00000000 0x00040000>;
@@ -8295,7 +8295,7 @@
     compatible = "fixed-partitions";
     #address-cells = <1>;
     #size-cells = <1>;
-# 115 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi"
+# 115 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157c-ev1-u-boot.dtsi"
     partition@0 {
      label = "fsbl1";
      reg = <0x00000000 0x00080000>;
@@ -8376,5 +8376,5 @@
   bootph-pre-ram;
  };
 };
-# 7 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/dts/stm32mp157f-ev1-u-boot.dtsi" 2
+# 7 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/dts/stm32mp157f-ev1-u-boot.dtsi" 2
 # 836 "arch/arm/dts/.stm32mp157f-ev1.dtb.pre.tmp" 2

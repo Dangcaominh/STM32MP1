@@ -1,0 +1,21 @@
+../build/optee-programmer-usb-stm32mp135f-dk/libfdt/fdt_addresses.o: \
+ lib/libfdt/fdt_addresses.c include/lib/libfdt/libfdt_env.h \
+ include/lib/libc/stdbool.h include/lib/libc/stddef.h \
+ include/lib/libc/aarch32/stddef_.h include/lib/libc/stdint.h \
+ include/lib/libc/limits.h include/lib/libc/aarch32/limits_.h \
+ include/lib/libc/aarch32/stdint_.h include/lib/libc/stdlib.h \
+ include/lib/libc/string.h include/lib/libfdt/fdt.h \
+ include/lib/libfdt/libfdt.h lib/libfdt/libfdt_internal.h
+include/lib/libfdt/libfdt_env.h:
+include/lib/libc/stdbool.h:
+include/lib/libc/stddef.h:
+include/lib/libc/aarch32/stddef_.h:
+include/lib/libc/stdint.h:
+include/lib/libc/limits.h:
+include/lib/libc/aarch32/limits_.h:
+include/lib/libc/aarch32/stdint_.h:
+include/lib/libc/stdlib.h:
+include/lib/libc/string.h:
+include/lib/libfdt/fdt.h:
+include/lib/libfdt/libfdt.h:
+lib/libfdt/libfdt_internal.h:

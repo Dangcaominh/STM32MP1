@@ -1,6 +1,6 @@
-cmd_tools/spl_size_limit := cc -Wp,-MD,tools/.spl_size_limit.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE   -o tools/spl_size_limit /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/spl_size_limit.c   
+cmd_tools/spl_size_limit := cc -Wp,-MD,tools/.spl_size_limit.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE   -o tools/spl_size_limit /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/spl_size_limit.c   
 
-source_tools/spl_size_limit := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/spl_size_limit.c
+source_tools/spl_size_limit := /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/spl_size_limit.c
 
 deps_tools/spl_size_limit := \
     $(wildcard include/config/spl/size/limit.h) \
@@ -11,7 +11,7 @@ deps_tools/spl_size_limit := \
     $(wildcard include/config/spl/sys/malloc/f/len.h) \
     $(wildcard include/config/spl/size/limit/provide/stack.h) \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stddef.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \

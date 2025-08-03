@@ -1,9 +1,9 @@
-cmd_arch/arm/lib/sections.o := arm-ostl-linux-gnueabi-gcc -Wp,-MD,arch/arm/lib/.sections.o.d -nostdinc -isystem /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include -Iinclude  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include    -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib -Iarch/arm/lib -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -std=gnu11 -fshort-wchar -fno-strict-aliasing -fno-PIE -Os -fno-stack-protector -fno-delete-null-pointer-checks -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-maybe-uninitialized -fmacro-prefix-map=/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/= -gdwarf-4 -fstack-usage -Wno-format-nonliteral -Wno-address-of-packed-member -Wno-unused-but-set-variable -Werror=date-time -Wno-packed-not-aligned --sysroot=/opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -mgeneral-regs-only -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -mtune=generic-armv7-a  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/include    -DKBUILD_BASENAME='"sections"'  -DKBUILD_MODNAME='"sections"' -c -o arch/arm/lib/sections.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/sections.c
+cmd_arch/arm/lib/sections.o := arm-ostl-linux-gnueabi-gcc -Wp,-MD,arch/arm/lib/.sections.o.d -nostdinc -isystem /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include -Iinclude  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/include    -I/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib -Iarch/arm/lib -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -std=gnu11 -fshort-wchar -fno-strict-aliasing -fno-PIE -Os -fno-stack-protector -fno-delete-null-pointer-checks -Wno-pointer-sign -Wno-stringop-truncation -Wno-zero-length-bounds -Wno-array-bounds -Wno-stringop-overflow -Wno-maybe-uninitialized -fmacro-prefix-map=/home/dangcaominh/STM32MP1/u-boot/u-boot/= -gdwarf-4 -fstack-usage -Wno-format-nonliteral -Wno-address-of-packed-member -Wno-unused-but-set-variable -Werror=date-time -Wno-packed-not-aligned --sysroot=/opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -mgeneral-regs-only -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -mtune=generic-armv7-a  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/mach-stm32mp/include    -DKBUILD_BASENAME='"sections"'  -DKBUILD_MODNAME='"sections"' -c -o arch/arm/lib/sections.o /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/sections.c
 
-source_arch/arm/lib/sections.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/sections.c
+source_arch/arm/lib/sections.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/sections.c
 
 deps_arch/arm/lib/sections.o := \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
     $(wildcard include/config/booger.h) \
     $(wildcard include/config/foo.h) \
     $(wildcard include/config/spl/.h) \
@@ -22,30 +22,30 @@ deps_arch/arm/lib/sections.o := \
     $(wildcard include/config/tpl/acme.h) \
     $(wildcard include/config/if/enabled/int.h) \
     $(wildcard include/config/int/option.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler.h \
     $(wildcard include/config/trace/branch/profiling.h) \
     $(wildcard include/config/profile/all/branches.h) \
     $(wildcard include/config/stack/validation.h) \
     $(wildcard include/config/kasan.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_types.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_types.h \
     $(wildcard include/config/have/arch/compiler/h.h) \
     $(wildcard include/config/enable/must/check.h) \
     $(wildcard include/config/optimize/inlining.h) \
     $(wildcard include/config/cc/has/asm/inline.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_attributes.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler-gcc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_attributes.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler-gcc.h \
     $(wildcard include/config/retpoline.h) \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/types.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/types.h \
     $(wildcard include/config/uid16.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/posix_types.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/stddef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/posix_types.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/types.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/posix_types.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/stddef.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/posix_types.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/types.h \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/int-ll64.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/int-ll64.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stdbool.h \
 
 arch/arm/lib/sections.o: $(deps_arch/arm/lib/sections.o)

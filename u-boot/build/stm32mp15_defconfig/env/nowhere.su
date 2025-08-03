@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/nowhere.c:23:12:env_nowhere_init	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/env/nowhere.c:30:12:env_nowhere_load	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/env/nowhere.c:23:12:env_nowhere_init	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/env/nowhere.c:30:12:env_nowhere_load	8	static

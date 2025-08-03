@@ -1,7 +1,7 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:70:13:ext4fs_update	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:109:5:ext4fs_get_bgdtable	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:696:6:ext4fs_deinit	152	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:598:5:ext4fs_init	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:845:5:ext4fs_write	568	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:1040:5:ext4_write_file	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/ext4_write.c:1066:5:ext4fs_create_link	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:70:13:ext4fs_update	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:109:5:ext4fs_get_bgdtable	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:696:6:ext4fs_deinit	152	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:598:5:ext4fs_init	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:845:5:ext4fs_write	568	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:1040:5:ext4_write_file	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/ext4_write.c:1066:5:ext4fs_create_link	16	static

@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_bitblt.c:32:13:ellipse	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_bitblt.c:63:20:notify	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_bitblt.c:203:12:teardown	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_bitblt.c:99:12:setup	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_bitblt.c:230:12:execute	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_bitblt.c:32:13:ellipse	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_bitblt.c:63:20:notify	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_bitblt.c:203:12:teardown	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_bitblt.c:99:12:setup	64	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_bitblt.c:230:12:execute	56	static

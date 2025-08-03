@@ -1,6 +1,6 @@
-cmd_tools/envcrc.o := cc -Wp,-MD,tools/.envcrc.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -c -o tools/envcrc.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/envcrc.c
+cmd_tools/envcrc.o := cc -Wp,-MD,tools/.envcrc.o.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -c -o tools/envcrc.o /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/envcrc.c
 
-source_tools/envcrc.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/envcrc.c
+source_tools/envcrc.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/envcrc.c
 
 deps_tools/envcrc.o := \
     $(wildcard include/config/env/is/in/flash.h) \
@@ -14,7 +14,7 @@ deps_tools/envcrc.o := \
     $(wildcard include/config/sys/monitor/len.h) \
     $(wildcard include/config/sys/redundand/environment.h) \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stddef.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \
@@ -106,8 +106,8 @@ deps_tools/envcrc.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/timex.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_tm.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_itimerspec.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/u-boot/crc.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/u-boot/crc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/unistd.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/posix_opt.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/environments.h \
@@ -116,7 +116,7 @@ deps_tools/envcrc.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_core.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/unistd_ext.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/linux/close_range.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
     $(wildcard include/config/booger.h) \
     $(wildcard include/config/foo.h) \
     $(wildcard include/config/spl/.h) \
@@ -136,15 +136,15 @@ deps_tools/envcrc.o := \
     $(wildcard include/config/if/enabled/int.h) \
     $(wildcard include/config/int/option.h) \
   include/config.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_st_common.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_st_common.h \
     $(wildcard include/config/sys/load/addr.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_common.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_common.h \
     $(wildcard include/config/distro/defaults.h) \
     $(wildcard include/config/cmd/mmc.h) \
     $(wildcard include/config/net.h) \
     $(wildcard include/config/cmd/ubifs.h) \
     $(wildcard include/config/cmd/usb.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/sizes.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/sizes.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/linux/const.h \
   include/asm/arch/stm32.h \
     $(wildcard include/config/stm32mp15x.h) \
@@ -152,7 +152,7 @@ deps_tools/envcrc.o := \
     $(wildcard include/config/stm32mp21x.h) \
     $(wildcard include/config/stm32mp23x.h) \
     $(wildcard include/config/stm32mp25x.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_distro_bootcmd.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_distro_bootcmd.h \
     $(wildcard include/config/sandbox.h) \
     $(wildcard include/config/efi/loader.h) \
     $(wildcard include/config/arm64.h) \
@@ -172,10 +172,10 @@ deps_tools/envcrc.o := \
     $(wildcard include/config/x86.h) \
     $(wildcard include/config/cmd/pxe.h) \
     $(wildcard include/config/cmd/extension.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/config.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/config.h \
     $(wildcard include/config/arch/ls1021a.h) \
     $(wildcard include/config/fsl/layerscape.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_fallbacks.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_fallbacks.h \
     $(wildcard include/config/spl/pad/to.h) \
     $(wildcard include/config/spl/max/size.h) \
 

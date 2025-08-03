@@ -1,6 +1,6 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:44:20:notify	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:132:12:teardown	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:172:12:execute	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:70:12:setup.isra	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:118:12:setup_reboot	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_watchdog.c:104:12:setup_timer	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:44:20:notify	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:132:12:teardown	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:172:12:execute	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:70:12:setup.isra	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:118:12:setup_reboot	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_watchdog.c:104:12:setup_timer	0	static

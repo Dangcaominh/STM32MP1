@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/led/led_gpio.c:44:25:gpio_led_get_state	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/led/led_gpio.c:20:12:gpio_led_set_state	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/led/led_gpio.c:65:12:led_gpio_remove	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/led/led_gpio.c:58:12:led_gpio_probe	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/led/led_gpio.c:81:12:led_gpio_bind	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/led/led_gpio.c:44:25:gpio_led_get_state	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/led/led_gpio.c:20:12:gpio_led_set_state	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/led/led_gpio.c:65:12:led_gpio_remove	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/led/led_gpio.c:58:12:led_gpio_probe	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/led/led_gpio.c:81:12:led_gpio_bind	40	static

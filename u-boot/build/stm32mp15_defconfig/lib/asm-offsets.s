@@ -17,7 +17,7 @@
 	.text
 .Ltext0:
 	.cfi_sections	.debug_frame
-	.file 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c"
+	.file 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c"
 	.section	.text.startup.main,"ax",%progbits
 	.align	1
 	.global	main
@@ -34,62 +34,62 @@ main:
 	@ link register save eliminated.
 	.loc 1 23 2 view .LVU1
 	.syntax unified
-@ 23 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 23 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GENERATED_GBL_DATA_SIZE #304 (sizeof(struct global_data) + 15) & ~15"	@
 @ 0 "" 2
 	.loc 1 26 2 view .LVU2
-@ 26 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 26 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GENERATED_BD_INFO_SIZE #80 (sizeof(struct bd_info) + 15) & ~15"	@
 @ 0 "" 2
 	.loc 1 29 2 view .LVU3
-@ 29 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 29 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_SIZE #304 sizeof(struct global_data)"	@
 @ 0 "" 2
 	.loc 1 31 2 view .LVU4
-@ 31 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 31 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_BD #0 offsetof(struct global_data, bd)"	@
 @ 0 "" 2
 	.loc 1 33 2 view .LVU5
-@ 33 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 33 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_FLAGS #4 offsetof(struct global_data, flags)"	@
 @ 0 "" 2
 	.loc 1 36 2 view .LVU6
-@ 36 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 36 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_MALLOC_BASE #176 offsetof(struct global_data, malloc_base)"	@
 @ 0 "" 2
 	.loc 1 39 2 view .LVU7
-@ 39 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 39 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_RELOCADDR #64 offsetof(struct global_data, relocaddr)"	@
 @ 0 "" 2
 	.loc 1 41 2 view .LVU8
-@ 41 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 41 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_RELOC_OFF #84 offsetof(struct global_data, reloc_off)"	@
 @ 0 "" 2
 	.loc 1 43 2 view .LVU9
-@ 43 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 43 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_START_ADDR_SP #80 offsetof(struct global_data, start_addr_sp)"	@
 @ 0 "" 2
 	.loc 1 45 2 view .LVU10
-@ 45 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 45 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_NEW_GD #88 offsetof(struct global_data, new_gd)"	@
 @ 0 "" 2
 	.loc 1 47 2 view .LVU11
-@ 47 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c" 1
+@ 47 "/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c" 1
 	
 .ascii "->GD_ENV_ADDR #40 offsetof(struct global_data, env_addr)"	@
 @ 0 "" 2
 	.loc 1 49 2 view .LVU12
-@ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/asm-offsets.c:50: }
+@ /home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-offsets.c:50: }
 	.loc 1 50 1 is_stmt 0 view .LVU13
 	.thumb
 	.syntax unified
@@ -295,8 +295,8 @@ main:
 .LASF0:
 	.ascii	"signed char\000"
 .LASF13:
-	.ascii	"/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/l"
-	.ascii	"ib/asm-offsets.c\000"
+	.ascii	"/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/asm-of"
+	.ascii	"fsets.c\000"
 .LASF10:
 	.ascii	"long double\000"
 .LASF2:

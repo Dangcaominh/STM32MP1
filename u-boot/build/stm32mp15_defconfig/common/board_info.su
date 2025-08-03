@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/board_info.c:13:12:checkboard	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/board_info.c:24:12:show_board_info	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/board_info.c:13:12:checkboard	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/board_info.c:24:12:show_board_info	8	static

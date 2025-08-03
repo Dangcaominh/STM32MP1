@@ -935,7 +935,7 @@ endif
 ifneq "$(CC_VERSION_TEXT)" "arm-ostl-linux-gnueabi-gcc (GCC) 13.3.0"
 include/config/auto.conf: FORCE
 endif
-ifneq "$(srctree)" "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot"
+ifneq "$(srctree)" "/home/dangcaominh/STM32MP1/u-boot/u-boot"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(CC)" "arm-ostl-linux-gnueabi-gcc"

@@ -1,10 +1,10 @@
-cmd_tools/asn1_compiler := cc -Wp,-MD,tools/.asn1_compiler.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -idirafter /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include   -o tools/asn1_compiler /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/asn1_compiler.c   
+cmd_tools/asn1_compiler := cc -Wp,-MD,tools/.asn1_compiler.d -Itools -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -DCONFIG_FIT_SIGNATURE -DCONFIG_FIT_SIGNATURE_MAX_SIZE=0xffffffff -DCONFIG_FIT_CIPHER -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h -idirafterinclude -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/include -idirafter/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/tools -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -D_GNU_SOURCE -idirafter /home/dangcaominh/STM32MP1/u-boot/u-boot/include   -o tools/asn1_compiler /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/asn1_compiler.c   
 
-source_tools/asn1_compiler := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/tools/asn1_compiler.c
+source_tools/asn1_compiler := /home/dangcaominh/STM32MP1/u-boot/u-boot/tools/asn1_compiler.c
 
 deps_tools/asn1_compiler := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stddef.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \
@@ -123,8 +123,8 @@ deps_tools/asn1_compiler := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/statx-generic.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_statx_timestamp.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_statx.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/asn1_ber_bytecode.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/asn1.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/asn1_ber_bytecode.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/asn1.h \
 
 tools/asn1_compiler: $(deps_tools/asn1_compiler)
 

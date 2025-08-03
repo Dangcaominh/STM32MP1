@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_variables_runtime.c:27:12:setup	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/efi_selftest/efi_selftest_variables_runtime.c:41:12:execute	192	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_variables_runtime.c:27:12:setup	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/efi_selftest/efi_selftest_variables_runtime.c:41:12:execute	192	static

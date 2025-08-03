@@ -1,0 +1,1 @@
+/home/dangcaominh/STM32MP1/optee-os/optee-os/../build/opteemin-stm32mp157d-dk1/core/arch/arm/dts/stm32mp157d-dk1.dtb: /home/dangcaominh/STM32MP1/optee-os/optee-os/../build/opteemin-stm32mp157d-dk1/core/arch/arm/dts/stm32mp157d-dk1.pre.dts

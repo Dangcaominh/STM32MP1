@@ -1,8 +1,8 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:63:12:test_block_type	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:101:12:part_test_dos	40	dynamic
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:204:12:part_get_info_extended	64	dynamic
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:310:27:part_get_info_dos	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:133:13:print_partition_extended	80	dynamic
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:304:28:part_print_dos	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:316:5:is_valid_dos_buf	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/disk/part_dos.c:493:5:write_mbr_sector	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:63:12:test_block_type	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:101:12:part_test_dos	40	dynamic
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:204:12:part_get_info_extended	64	dynamic
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:310:27:part_get_info_dos	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:133:13:print_partition_extended	80	dynamic
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:304:28:part_print_dos	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:316:5:is_valid_dos_buf	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/disk/part_dos.c:493:5:write_mbr_sector	32	static

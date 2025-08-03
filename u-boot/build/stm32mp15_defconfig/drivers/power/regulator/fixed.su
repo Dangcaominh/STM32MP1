@@ -1,7 +1,7 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:78:12:fixed_regulator_set_enable	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:73:12:fixed_regulator_get_enable	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:57:12:fixed_regulator_get_current	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:41:12:fixed_regulator_get_value	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:24:12:fixed_regulator_of_to_plat	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:83:12:fixed_clock_regulator_get_enable	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/fixed.c:90:12:fixed_clock_regulator_set_enable	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:78:12:fixed_regulator_set_enable	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:73:12:fixed_regulator_get_enable	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:57:12:fixed_regulator_get_current	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:41:12:fixed_regulator_get_value	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:24:12:fixed_regulator_of_to_plat	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:83:12:fixed_clock_regulator_get_enable	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/fixed.c:90:12:fixed_clock_regulator_set_enable	16	static

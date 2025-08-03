@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_amd.c:41:12:amd_nand_init	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_amd.c:21:13:amd_nand_decode_id	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_amd.c:41:12:amd_nand_init	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_amd.c:21:13:amd_nand_decode_id	8	static

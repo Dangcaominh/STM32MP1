@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/gpt.c:102:14:extract_val	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/gpt.c:43:12:extract_env	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/gpt.c:673:12:gpt_enumerate	2248	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/gpt.c:409:12:set_gpt_info.constprop	72	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/gpt.c:983:12:do_gpt	232	dynamic
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/gpt.c:102:14:extract_val	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/gpt.c:43:12:extract_env	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/gpt.c:673:12:gpt_enumerate	2248	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/gpt.c:409:12:set_gpt_info.constprop	72	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/gpt.c:983:12:do_gpt	232	dynamic

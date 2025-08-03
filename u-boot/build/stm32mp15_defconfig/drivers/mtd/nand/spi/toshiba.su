@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/spi/toshiba.c:44:12:tx58cxgxsxraix_ooblayout_ecc	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/spi/toshiba.c:56:12:tx58cxgxsxraix_ooblayout_free	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/spi/toshiba.c:74:12:tx58cxgxsxraix_ecc_get_status	72	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/spi/toshiba.c:260:12:toshiba_spinand_detect	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/spi/toshiba.c:44:12:tx58cxgxsxraix_ooblayout_ecc	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/spi/toshiba.c:56:12:tx58cxgxsxraix_ooblayout_free	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/spi/toshiba.c:74:12:tx58cxgxsxraix_ecc_get_status	72	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/spi/toshiba.c:260:12:toshiba_spinand_detect	8	static

@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/linux_string.c:20:7:skip_spaces	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/linux_string.c:35:7:strim	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/linux_string.c:20:7:skip_spaces	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/linux_string.c:35:7:strim	8	static

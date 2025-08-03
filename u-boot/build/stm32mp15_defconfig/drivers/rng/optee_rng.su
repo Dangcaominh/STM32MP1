@@ -1,3 +1,3 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/optee_rng.c:49:12:open_session_ta_hwrng	80	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/optee_rng.c:165:12:optee_rng_probe	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/rng/optee_rng.c:121:12:optee_rng_read	112	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/rng/optee_rng.c:49:12:open_session_ta_hwrng	80	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/rng/optee_rng.c:165:12:optee_rng_probe	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/rng/optee_rng.c:121:12:optee_rng_read	112	static

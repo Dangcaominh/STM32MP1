@@ -1,6 +1,6 @@
-cmd_scripts/kconfig/conf.o := cc -Wp,-MD,scripts/kconfig/.conf.o.d -Iscripts/kconfig -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -c -o scripts/kconfig/conf.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/conf.c
+cmd_scripts/kconfig/conf.o := cc -Wp,-MD,scripts/kconfig/.conf.o.d -Iscripts/kconfig -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11 -c -o scripts/kconfig/conf.o /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/conf.c
 
-source_scripts/kconfig/conf.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/conf.c
+source_scripts/kconfig/conf.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/conf.c
 
 deps_scripts/kconfig/conf.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
@@ -96,13 +96,13 @@ deps_scripts/kconfig/conf.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/asm/errno.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/asm-generic/errno.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/asm-generic/errno-base.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/lkc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/lkc.h \
     $(wildcard include/config/prefix.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/expr.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/expr.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/assert.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/list.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/list.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/lkc_proto.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/lkc_proto.h \
 
 scripts/kconfig/conf.o: $(deps_scripts/kconfig/conf.o)
 

@@ -179,7 +179,7 @@ function build_optee() {
             ;;
         *)
             make -f $PWD/../Makefile DEPLOYDIR=$FIP_DEPLOYDIR_ROOT/optee \
-            CFG_EMBED_DTB_SOURCE_FILE=stm32mp157f-ev1 \
+            CFG_EMBED_DTB_SOURCE_FILE=stm32mp157d-dk1 \
             EXTDT_DIR=$EXTDT_DIR EXTDT_DIR_OPTEE_SERIAL=ca7-td/optee optee
             ;;
     esac
@@ -189,7 +189,7 @@ function build_optee() {
 # Build Linux Kernel
 function build_kernel() {
     source env_setup.sh
-    pushd kernel/stm32mp1_linux
+    pushd kernel/linux
     export OUTPUT_BUILD_DIR=$PWD/../build
     # Add external device tree support
     export OUT_OF_TREE_MODULE=STM32MP157D-DK1
@@ -198,7 +198,6 @@ function build_kernel() {
     mkdir -p ${OUTPUT_BUILD_DIR}
     case "$BUILD_OPTION" in
         "menuconfig")
-            echo "Running menuconfig for U-Boot..."
             make O="${OUTPUT_BUILD_DIR}" defconfig fragment*.config
             for f in `ls -1 ../fragment*.config`; do scripts/kconfig/merge_config.sh -m -r -O ${OUTPUT_BUILD_DIR} ${OUTPUT_BUILD_DIR}/.config $f; done
             (yes '' || true) | make oldconfig O="${OUTPUT_BUILD_DIR}"
@@ -243,7 +242,7 @@ function build_uboot()
     export DEPLOYDIR=$PWD/images/stm32mp1/u-boot
     export FIP_DEPLOYDIR_ROOT=$PWD/images/stm32mp1
     export EXTDT_DIR=$PWD/$OUT_OF_TREE_MODULE/CA7/Devicetree/u-boot
-    pushd u-boot/stm32mp1-u-boot
+    pushd u-boot/u-boot
     case "$BUILD_OPTION" in
         "menuconfig")
             echo "Running menuconfig for U-Boot..."

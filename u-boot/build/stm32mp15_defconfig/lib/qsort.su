@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/qsort.c:24:6:qsort	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/qsort.c:70:5:strcmp_compar	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/qsort.c:24:6:qsort	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/qsort.c:70:5:strcmp_compar	0	static

@@ -1,0 +1,3 @@
+/home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/ta/avb/ta.lds: \
+ /home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/export-ta_arm32/src/ta.ld.S \
+ /home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/include/generated/conf.h

@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/replay.c:271:12:replay_entries_cmp	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/replay.c:351:12:insert_node	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/replay.c:445:5:ubifs_validate_entry	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ubifs/replay.c:1003:5:ubifs_replay_journal	144	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ubifs/replay.c:271:12:replay_entries_cmp	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ubifs/replay.c:351:12:insert_node	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ubifs/replay.c:445:5:ubifs_validate_entry	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ubifs/replay.c:1003:5:ubifs_replay_journal	144	static

@@ -1,8 +1,8 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:70:5:uuid_str_valid	12	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:278:5:uuid_guid_get_bin	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:298:13:uuid_guid_get_str	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:317:5:uuid_str_to_bin	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:378:5:uuid_str_to_le_bin	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:413:6:uuid_bin_to_str	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:460:6:gen_rand_uuid	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/uuid.c:503:6:gen_rand_uuid_str	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:70:5:uuid_str_valid	12	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:278:5:uuid_guid_get_bin	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:298:13:uuid_guid_get_str	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:317:5:uuid_str_to_bin	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:378:5:uuid_str_to_le_bin	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:413:6:uuid_bin_to_str	64	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:460:6:gen_rand_uuid	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/uuid.c:503:6:gen_rand_uuid_str	32	static

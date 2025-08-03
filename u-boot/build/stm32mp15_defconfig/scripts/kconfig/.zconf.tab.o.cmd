@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/zconf.tab.o := cc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Iscripts/kconfig -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c
+cmd_scripts/kconfig/zconf.tab.o := cc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -Iscripts/kconfig -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c
 
 source_scripts/kconfig/zconf.tab.o := scripts/kconfig/zconf.tab.c
 
@@ -65,13 +65,13 @@ deps_scripts/kconfig/zconf.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/string.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/strings.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/lkc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/lkc.h \
     $(wildcard include/config/prefix.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/expr.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/expr.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/assert.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/list.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/lkc_proto.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/kconf_id.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/list.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/lkc_proto.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/kconf_id.c \
   scripts/kconfig/zconf.lex.c \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/errno.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/errno.h \
@@ -101,9 +101,9 @@ deps_scripts/kconfig/zconf.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_posix.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_core.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/unistd_ext.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/util.c \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/lkc.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/confdata.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/util.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/lkc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/confdata.c \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/sys/stat.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/stat.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/struct_stat.h \
@@ -114,13 +114,13 @@ deps_scripts/kconfig/zconf.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/time.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_tm.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/struct_itimerspec.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/expr.c \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/symbol.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/expr.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/symbol.c \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/regex.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/sys/utsname.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/utsname.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/menu.c \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/kconfig/preprocess.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/menu.c \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/kconfig/preprocess.c \
 
 scripts/kconfig/zconf.tab.o: $(deps_scripts/kconfig/zconf.tab.o)
 

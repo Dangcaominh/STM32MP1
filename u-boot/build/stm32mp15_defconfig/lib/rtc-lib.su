@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rtc-lib.c:26:5:rtc_month_days	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rtc-lib.c:38:6:rtc_to_tm	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rtc-lib.c:26:5:rtc_month_days	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rtc-lib.c:38:6:rtc_to_tm	24	static

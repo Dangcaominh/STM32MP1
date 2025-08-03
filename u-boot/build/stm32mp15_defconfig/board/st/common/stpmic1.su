@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/board/st/common/stpmic1.c:18:5:board_ddr_power_init	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/board/st/common/stpmic1.c:188:17:stpmic1_init	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/board/st/common/stpmic1.c:18:5:board_ddr_power_init	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/board/st/common/stpmic1.c:188:17:stpmic1_init	16	static

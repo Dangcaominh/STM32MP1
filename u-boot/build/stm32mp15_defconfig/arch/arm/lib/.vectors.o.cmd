@@ -1,13 +1,13 @@
-cmd_arch/arm/lib/vectors.o := arm-ostl-linux-gnueabi-gcc -Wp,-MD,arch/arm/lib/.vectors.o.d -nostdinc -isystem /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include -Iinclude  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include    -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include -include /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -D__ASSEMBLY__ -fno-PIE -gdwarf-4 -DCONFIG_THUMB2_KERNEL -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -mgeneral-regs-only -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -mtune=generic-armv7-a  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/include   -c -o arch/arm/lib/vectors.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/vectors.S
+cmd_arch/arm/lib/vectors.o := arm-ostl-linux-gnueabi-gcc -Wp,-MD,arch/arm/lib/.vectors.o.d -nostdinc -isystem /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include -Iinclude  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/include    -I/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include -include /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -D__ASSEMBLY__ -fno-PIE -gdwarf-4 -DCONFIG_THUMB2_KERNEL -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -mgeneral-regs-only -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -mtune=generic-armv7-a  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/mach-stm32mp/include   -c -o arch/arm/lib/vectors.o /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/vectors.S
 
-source_arch/arm/lib/vectors.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/vectors.S
+source_arch/arm/lib/vectors.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/vectors.S
 
 deps_arch/arm/lib/vectors.o := \
     $(wildcard include/config/arch/k3.h) \
     $(wildcard include/config/sys/no/vector/table.h) \
     $(wildcard include/config/enable/arm/soc/boot0/hook.h) \
     $(wildcard include/config/spl/build.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
     $(wildcard include/config/booger.h) \
     $(wildcard include/config/foo.h) \
     $(wildcard include/config/spl/.h) \
@@ -26,23 +26,23 @@ deps_arch/arm/lib/vectors.o := \
     $(wildcard include/config/if/enabled/int.h) \
     $(wildcard include/config/int/option.h) \
   include/config.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_st_common.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_st_common.h \
     $(wildcard include/config/sys/load/addr.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_common.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_common.h \
     $(wildcard include/config/distro/defaults.h) \
     $(wildcard include/config/cmd/mmc.h) \
     $(wildcard include/config/net.h) \
     $(wildcard include/config/cmd/ubifs.h) \
     $(wildcard include/config/cmd/usb.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/sizes.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/const.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/sizes.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/const.h \
   include/asm/arch/stm32.h \
     $(wildcard include/config/stm32mp15x.h) \
     $(wildcard include/config/stm32mp13x.h) \
     $(wildcard include/config/stm32mp21x.h) \
     $(wildcard include/config/stm32mp23x.h) \
     $(wildcard include/config/stm32mp25x.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_distro_bootcmd.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_distro_bootcmd.h \
     $(wildcard include/config/sandbox.h) \
     $(wildcard include/config/efi/loader.h) \
     $(wildcard include/config/arm64.h) \
@@ -62,11 +62,11 @@ deps_arch/arm/lib/vectors.o := \
     $(wildcard include/config/x86.h) \
     $(wildcard include/config/cmd/pxe.h) \
     $(wildcard include/config/cmd/extension.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/config.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/config.h \
     $(wildcard include/config/arch/ls1021a.h) \
     $(wildcard include/config/fsl/layerscape.h) \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_fallbacks.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_fallbacks.h \
     $(wildcard include/config/spl/pad/to.h) \
     $(wildcard include/config/spl/max/size.h) \
 

@@ -1,117 +1,117 @@
 include/config/auto.conf: \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/common.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/common.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
  include/generated/autoconf.h include/config.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_st_common.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_common.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/sizes.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/const.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_st_common.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_common.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/sizes.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/const.h \
  include/asm/arch/stm32.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/bitops.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/types.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/int-ll64.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitsperlong.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_types.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_attributes.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler-gcc.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/types.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/posix_types.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/stddef.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/posix_types.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/bitops.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/types.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/int-ll64.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitsperlong.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_types.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_attributes.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler-gcc.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/types.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/posix_types.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/stddef.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/posix_types.h \
  /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stdbool.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kernel.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/printk.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/log.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/stdio.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kernel.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/printk.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/log.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/stdio.h \
  /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stdarg.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linker_lists.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dm/uclass-id.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/list.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/poison.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/bitops.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/__ffs.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/__fls.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/fls.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/fls64.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/proc-armv/system.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_distro_bootcmd.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/config.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_fallbacks.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/errno.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/errno.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/time.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/typecheck.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/string.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/string.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/linux_string.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/u-boot.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/u-boot.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/u-boot-arm.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/vsprintf.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/env_internal.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linker_lists.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/dm/uclass-id.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/list.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/poison.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/bitops.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/__ffs.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/__fls.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/fls.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/fls64.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/proc-armv/system.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_distro_bootcmd.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/config.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_fallbacks.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/errno.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/errno.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/time.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/typecheck.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/string.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/string.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/linux_string.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/u-boot.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/u-boot.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/u-boot-arm.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/vsprintf.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/env_internal.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h \
  /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stddef.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/byteorder.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/little_endian.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/swab.h \
- /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/generic.h
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h:
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/byteorder.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/little_endian.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/swab.h \
+ /home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/generic.h
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h:
 include/generated/autoconf.h:
 include/config.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_st_common.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/configs/stm32mp15_common.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/sizes.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/const.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_st_common.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/configs/stm32mp15_common.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/sizes.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/const.h:
 include/asm/arch/stm32.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/bitops.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/types.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/int-ll64.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitsperlong.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_types.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler_attributes.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/compiler-gcc.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/types.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/posix_types.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/stddef.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/posix_types.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/bitops.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/types.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/int-ll64.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitsperlong.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_types.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler_attributes.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/compiler-gcc.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/types.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/posix_types.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/stddef.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/posix_types.h:
 /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stdbool.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kernel.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/printk.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/log.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/stdio.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kernel.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/printk.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/log.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/stdio.h:
 /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stdarg.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linker_lists.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/dm/uclass-id.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/list.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/poison.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/bitops.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/__ffs.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/__fls.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/fls.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/bitops/fls64.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/proc-armv/system.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_distro_bootcmd.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/config.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/kconfig.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/config_fallbacks.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/errno.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/errno.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/time.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/typecheck.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/string.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/string.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/linux_string.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/u-boot.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/asm-generic/u-boot.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/u-boot-arm.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/vsprintf.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/env_internal.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/compiler.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linker_lists.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/dm/uclass-id.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/list.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/poison.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/bitops.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/__ffs.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/__fls.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/fls.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/bitops/fls64.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/proc-armv/system.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_distro_bootcmd.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/config.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/kconfig.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/config_fallbacks.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/errno.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/errno.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/time.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/typecheck.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/string.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/string.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/linux_string.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/u-boot.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/asm-generic/u-boot.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/u-boot-arm.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/vsprintf.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/env_internal.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/compiler.h:
 /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/arm-ostl-linux-gnueabi/gcc/arm-ostl-linux-gnueabi/13.3.0/include/stddef.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/include/asm/byteorder.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/little_endian.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/swab.h:
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/include/linux/byteorder/generic.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/include/asm/byteorder.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/little_endian.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/swab.h:
+/home/dangcaominh/STM32MP1/u-boot/u-boot/include/linux/byteorder/generic.h:

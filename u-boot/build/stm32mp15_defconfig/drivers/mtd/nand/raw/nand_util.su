@@ -1,6 +1,6 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:413:12:check_skip_len.constprop	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:55:5:nand_erase_opts	184	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:482:5:nand_verify_page_oob	72	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:523:5:nand_verify	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:574:5:nand_write_skip_bad	64	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/mtd/nand/raw/nand_util.c:708:5:nand_read_skip_bad	64	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:413:12:check_skip_len.constprop	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:55:5:nand_erase_opts	184	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:482:5:nand_verify_page_oob	72	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:523:5:nand_verify	64	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:574:5:nand_write_skip_bad	64	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/mtd/nand/raw/nand_util.c:708:5:nand_read_skip_bad	64	static

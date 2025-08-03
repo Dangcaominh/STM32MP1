@@ -1,0 +1,6 @@
+/home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/ldelf-lib/libutils/isoc/islower.o: \
+ lib/libutils/isoc/islower.c \
+ /home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/include/generated/conf.h \
+ lib/libutils/isoc/include/ctype.h
+/home/dangcaominh/STM32MP1/optee-os/optee-os/../build/optee-stm32mp157d-dk1/include/generated/conf.h:
+lib/libutils/isoc/include/ctype.h:

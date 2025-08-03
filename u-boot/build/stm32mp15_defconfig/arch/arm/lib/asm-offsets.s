@@ -17,7 +17,7 @@
 	.text
 .Ltext0:
 	.cfi_sections	.debug_frame
-	.file 1 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c"
+	.file 1 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c"
 	.section	.text.startup.main,"ax",%progbits
 	.align	1
 	.global	main
@@ -34,27 +34,27 @@ main:
 	@ link register save eliminated.
 	.loc 1 94 2 view .LVU1
 	.syntax unified
-@ 94 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c" 1
+@ 94 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c" 1
 	
 .ascii "->ARM_SMCCC_RES_X0_OFFS #0 offsetof(struct arm_smccc_res, a0)"	@
 @ 0 "" 2
 	.loc 1 95 2 view .LVU2
-@ 95 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c" 1
+@ 95 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c" 1
 	
 .ascii "->ARM_SMCCC_RES_X2_OFFS #8 offsetof(struct arm_smccc_res, a2)"	@
 @ 0 "" 2
 	.loc 1 96 2 view .LVU3
-@ 96 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c" 1
+@ 96 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c" 1
 	
 .ascii "->ARM_SMCCC_QUIRK_ID_OFFS #0 offsetof(struct arm_smccc_quirk, id)"	@
 @ 0 "" 2
 	.loc 1 97 2 view .LVU4
-@ 97 "/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c" 1
+@ 97 "/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c" 1
 	
 .ascii "->ARM_SMCCC_QUIRK_STATE_OFFS #4 offsetof(struct arm_smccc_quirk, state)"	@
 @ 0 "" 2
 	.loc 1 111 2 view .LVU5
-@ /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/lib/asm-offsets.c:112: }
+@ /home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/lib/asm-offsets.c:112: }
 	.loc 1 112 1 is_stmt 0 view .LVU6
 	.thumb
 	.syntax unified
@@ -247,15 +247,15 @@ main:
 	.ascii	"long unsigned int\000"
 .LASF6:
 	.ascii	"long long unsigned int\000"
+.LASF13:
+	.ascii	"/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/l"
+	.ascii	"ib/asm-offsets.c\000"
 .LASF1:
 	.ascii	"unsigned char\000"
 .LASF8:
 	.ascii	"char\000"
 .LASF9:
 	.ascii	"long int\000"
-.LASF13:
-	.ascii	"/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/a"
-	.ascii	"rch/arm/lib/asm-offsets.c\000"
 .LASF11:
 	.ascii	"_Bool\000"
 .LASF3:

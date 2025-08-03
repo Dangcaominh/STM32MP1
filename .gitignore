@@ -4,3 +4,5 @@ zephyr/build/*
 zephyr/out/*
 build/*
 .vscode/*
+*/.cache/*
+*/.clangd

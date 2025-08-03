@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pinmux.c:161:12:do_pinmux	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pinmux.c:135:12:do_list	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pinmux.c:52:12:show_pinmux	136	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pinmux.c:94:12:do_status	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/pinmux.c:17:12:do_dev	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/pinmux.c:161:12:do_pinmux	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/pinmux.c:135:12:do_list	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/pinmux.c:52:12:show_pinmux	136	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/pinmux.c:94:12:do_status	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/pinmux.c:17:12:do_dev	8	static

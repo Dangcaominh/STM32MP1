@@ -1,4 +1,4 @@
-cmd_scripts/dtc/dtc-parser.tab.o := cc -Wp,-MD,scripts/dtc/.dtc-parser.tab.o.d -Iscripts/dtc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc -c -o scripts/dtc/dtc-parser.tab.o scripts/dtc/dtc-parser.tab.c
+cmd_scripts/dtc/dtc-parser.tab.o := cc -Wp,-MD,scripts/dtc/.dtc-parser.tab.o.d -Iscripts/dtc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc -c -o scripts/dtc/dtc-parser.tab.o scripts/dtc/dtc-parser.tab.c
 
 source_scripts/dtc/dtc-parser.tab.o := scripts/dtc/dtc-parser.tab.c
 
@@ -37,7 +37,7 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/stdint-intn.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/stdint-uintn.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/stdint-least.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/dtc.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/dtc.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/string.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/locale_t.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/types/__locale_t.h \
@@ -86,7 +86,7 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_posix.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_core.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/unistd_ext.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/libfdt_env.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/libfdt_env.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/limits.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/syslimits.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/limits.h \
@@ -96,11 +96,11 @@ deps_scripts/dtc/dtc-parser.tab.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/pthread_stack_min-dynamic.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/pthread_stack_min.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/posix2_lim.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/fdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/util.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/fdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/util.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/getopt.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_ext.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/srcpos.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/srcpos.h \
 
 scripts/dtc/dtc-parser.tab.o: $(deps_scripts/dtc/dtc-parser.tab.o)
 

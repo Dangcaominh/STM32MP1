@@ -1,6 +1,6 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:118:5:event_notify	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:141:5:event_notify_null	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:146:6:event_show_spy_list	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:182:5:event_register	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:200:5:event_uninit	12	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/event.c:211:5:event_init	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:118:5:event_notify	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:141:5:event_notify_null	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:146:6:event_show_spy_list	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:182:5:event_register	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:200:5:event_uninit	12	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/event.c:211:5:event_init	0	static

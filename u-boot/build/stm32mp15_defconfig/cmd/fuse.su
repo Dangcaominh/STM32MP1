@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fuse.c:18:12:strtou32	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/fuse.c:44:12:do_fuse	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/fuse.c:18:12:strtou32	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/fuse.c:44:12:do_fuse	56	static

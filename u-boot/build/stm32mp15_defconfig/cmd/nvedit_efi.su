@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/nvedit_efi.c:207:5:do_env_print_efi	160	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/nvedit_efi.c:376:5:do_env_set_efi	104	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/nvedit_efi.c:207:5:do_env_print_efi	160	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/nvedit_efi.c:376:5:do_env_set_efi	104	static

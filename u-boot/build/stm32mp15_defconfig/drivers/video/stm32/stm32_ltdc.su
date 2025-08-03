@@ -1,3 +1,3 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_ltdc.c:1094:12:stm32_ltdc_remove	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_ltdc.c:1079:12:stm32_ltdc_bind	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/stm32/stm32_ltdc.c:813:12:stm32_ltdc_probe	328	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/video/stm32/stm32_ltdc.c:1094:12:stm32_ltdc_remove	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/video/stm32/stm32_ltdc.c:1079:12:stm32_ltdc_bind	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/video/stm32/stm32_ltdc.c:813:12:stm32_ltdc_probe	328	static

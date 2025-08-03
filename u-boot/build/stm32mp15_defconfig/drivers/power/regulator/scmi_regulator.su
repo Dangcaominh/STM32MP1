@@ -1,7 +1,7 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:36:12:scmi_voltd_set_enable	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:57:12:scmi_voltd_get_enable	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:81:12:scmi_voltd_set_voltage_level	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:102:12:scmi_voltd_get_voltage_level	56	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:126:12:scmi_regulator_of_to_plat	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:140:12:scmi_regulator_probe	104	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/power/regulator/scmi_regulator.c:190:12:scmi_regulator_bind	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:36:12:scmi_voltd_set_enable	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:57:12:scmi_voltd_get_enable	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:81:12:scmi_voltd_set_voltage_level	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:102:12:scmi_voltd_get_voltage_level	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:126:12:scmi_regulator_of_to_plat	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:140:12:scmi_regulator_probe	104	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/power/regulator/scmi_regulator.c:190:12:scmi_regulator_bind	32	static

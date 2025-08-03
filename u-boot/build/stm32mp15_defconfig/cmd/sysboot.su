@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/sysboot.c:50:12:do_sysboot	96	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/sysboot.c:25:12:sysboot_read_file	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/sysboot.c:50:12:do_sysboot	96	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/sysboot.c:25:12:sysboot_read_file	48	static

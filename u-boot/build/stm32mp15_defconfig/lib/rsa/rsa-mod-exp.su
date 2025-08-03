@@ -1,4 +1,4 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-mod-exp.c:45:13:subtract_modulus	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-mod-exp.c:124:13:montgomery_mul	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-mod-exp.c:250:13:rsa_convert_big_endian	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/lib/rsa/rsa-mod-exp.c:258:5:rsa_mod_exp_sw	96	dynamic
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-mod-exp.c:45:13:subtract_modulus	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-mod-exp.c:124:13:montgomery_mul	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-mod-exp.c:250:13:rsa_convert_big_endian	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/lib/rsa/rsa-mod-exp.c:258:5:rsa_mod_exp_sw	96	dynamic

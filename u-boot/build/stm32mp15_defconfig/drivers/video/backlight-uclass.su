@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/backlight-uclass.c:13:5:backlight_enable	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/video/backlight-uclass.c:23:5:backlight_set_brightness	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/video/backlight-uclass.c:13:5:backlight_enable	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/video/backlight-uclass.c:23:5:backlight_set_brightness	0	static

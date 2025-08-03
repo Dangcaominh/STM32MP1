@@ -1,3 +1,3 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/stm32mp_wdt.c:54:12:stm32mp_wdt_reset	8	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/stm32mp_wdt.c:63:12:stm32mp_wdt_start	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/watchdog/stm32mp_wdt.c:99:12:stm32mp_wdt_probe	56	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/watchdog/stm32mp_wdt.c:54:12:stm32mp_wdt_reset	8	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/watchdog/stm32mp_wdt.c:63:12:stm32mp_wdt_start	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/watchdog/stm32mp_wdt.c:99:12:stm32mp_wdt_probe	56	static

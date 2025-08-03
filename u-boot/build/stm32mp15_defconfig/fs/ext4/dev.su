@@ -1,3 +1,3 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/dev.c:39:6:ext4fs_set_blk_dev	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/dev.c:50:5:ext4fs_devread	40	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/fs/ext4/dev.c:57:5:ext4_read_superblock	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/dev.c:39:6:ext4fs_set_blk_dev	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/dev.c:50:5:ext4fs_devread	40	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/fs/ext4/dev.c:57:5:ext4_read_superblock	24	static

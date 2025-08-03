@@ -1,6 +1,6 @@
-cmd_scripts/dtc/util.o := cc -Wp,-MD,scripts/dtc/.util.o.d -Iscripts/dtc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt -c -o scripts/dtc/util.o /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/util.c
+cmd_scripts/dtc/util.o := cc -Wp,-MD,scripts/dtc/.util.o.d -Iscripts/dtc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu11  -I/home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt -c -o scripts/dtc/util.o /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/util.c
 
-source_scripts/dtc/util.o := /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/util.c
+source_scripts/dtc/util.o := /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/util.c
 
 deps_scripts/dtc/util.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdc-predef.h \
@@ -83,8 +83,8 @@ deps_scripts/dtc/util.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_posix.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_core.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/unistd_ext.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/libfdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/libfdt_env.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/libfdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/libfdt_env.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdbool.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/lib/gcc/x86_64-ostl_sdk-linux/13.3.0/include/stdint.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/stdint.h \
@@ -100,11 +100,11 @@ deps_scripts/dtc/util.o := \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/pthread_stack_min-dynamic.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/pthread_stack_min.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/posix2_lim.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/libfdt/fdt.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/util.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/libfdt/fdt.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/util.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/getopt.h \
   /opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/x86_64-ostl_sdk-linux/usr/include/bits/getopt_ext.h \
-  /home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/scripts/dtc/version_gen.h \
+  /home/dangcaominh/STM32MP1/u-boot/u-boot/scripts/dtc/version_gen.h \
 
 scripts/dtc/util.o: $(deps_scripts/dtc/util.o)
 

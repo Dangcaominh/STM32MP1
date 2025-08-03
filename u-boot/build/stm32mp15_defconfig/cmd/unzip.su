@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/unzip.c:14:12:do_unzip	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/cmd/unzip.c:48:12:do_gzwrite	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/unzip.c:14:12:do_unzip	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/cmd/unzip.c:48:12:do_gzwrite	48	static

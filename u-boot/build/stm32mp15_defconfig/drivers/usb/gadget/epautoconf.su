@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/gadget/epautoconf.c:213:16:usb_ep_autoconfig	32	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/usb/gadget/epautoconf.c:307:6:usb_ep_autoconfig_reset	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/usb/gadget/epautoconf.c:213:16:usb_ep_autoconfig	32	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/usb/gadget/epautoconf.c:307:6:usb_ep_autoconfig_reset	0	static

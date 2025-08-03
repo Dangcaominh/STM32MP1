@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/pinctrl/pinctrl-generic.c:249:13:free_name_with_prefix	0	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/pinctrl/pinctrl-generic.c:237:20:alloc_name_with_prefix	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/pinctrl/pinctrl-generic.c:389:12:pinctrl_generic_set_state_subnode	80	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/pinctrl/pinctrl-generic.c:462:5:pinctrl_generic_set_state_prefix	24	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/drivers/pinctrl/pinctrl-generic.c:483:5:pinctrl_generic_set_state	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/pinctrl/pinctrl-generic.c:249:13:free_name_with_prefix	0	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/pinctrl/pinctrl-generic.c:237:20:alloc_name_with_prefix	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/pinctrl/pinctrl-generic.c:389:12:pinctrl_generic_set_state_subnode	80	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/pinctrl/pinctrl-generic.c:462:5:pinctrl_generic_set_state_prefix	24	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/drivers/pinctrl/pinctrl-generic.c:483:5:pinctrl_generic_set_state	0	static

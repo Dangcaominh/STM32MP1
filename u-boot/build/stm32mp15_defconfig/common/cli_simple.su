@@ -1,5 +1,5 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/cli_simple.c:26:5:cli_simple_parse_line	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/cli_simple.c:63:5:cli_simple_process_macros	1056	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/cli_simple.c:183:5:cli_simple_run_command	2144	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/cli_simple.c:269:6:cli_simple_loop	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/common/cli_simple.c:318:5:cli_simple_run_command_list	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/cli_simple.c:26:5:cli_simple_parse_line	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/cli_simple.c:63:5:cli_simple_process_macros	1056	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/cli_simple.c:183:5:cli_simple_run_command	2144	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/cli_simple.c:269:6:cli_simple_loop	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/common/cli_simple.c:318:5:cli_simple_run_command_list	16	static

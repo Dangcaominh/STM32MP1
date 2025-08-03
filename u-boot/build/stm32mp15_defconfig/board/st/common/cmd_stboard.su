@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/board/st/common/cmd_stboard.c:65:13:display_stboard	16	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/board/st/common/cmd_stboard.c:76:12:do_stboard	80	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/board/st/common/cmd_stboard.c:65:13:display_stboard	16	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/board/st/common/cmd_stboard.c:76:12:do_stboard	80	static

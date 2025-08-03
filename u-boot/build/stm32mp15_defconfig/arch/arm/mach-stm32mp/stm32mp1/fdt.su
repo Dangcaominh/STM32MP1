@@ -1,2 +1,2 @@
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/fdt.c:81:13:stm32_fdt_disable	48	static
-/home/dangcaominh/STM32MP1/u-boot/stm32mp1-u-boot/arch/arm/mach-stm32mp/stm32mp1/fdt.c:218:5:ft_system_setup	72	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/mach-stm32mp/stm32mp1/fdt.c:81:13:stm32_fdt_disable	48	static
+/home/dangcaominh/STM32MP1/u-boot/u-boot/arch/arm/mach-stm32mp/stm32mp1/fdt.c:218:5:ft_system_setup	72	static
