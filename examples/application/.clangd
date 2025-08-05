@@ -1,0 +1,23 @@
+CompileFlags:
+  Compiler: arm-ostl-linux-gnueabi-gcc
+  Add:
+    - "--target=arm-linux-gnueabi"
+    - "--sysroot=/opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi"
+    - "-I/opt/st/stm32mp1/5.0.8-openstlinux-6.6-yocto-scarthgap-mpu-v25.06.11/sysroots/cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi/usr/include"
+    - "-mthumb"
+    - "-mfpu=neon-vfpv4"
+    - "-mfloat-abi=hard"
+    - "-mcpu=cortex-a7"
+    - "-D_TIME_BITS=64"
+    - "-D_FILE_OFFSET_BITS=64"
+  Remove:
+    - "-mfp16-format=ieee"
+    - "-fno-reorder-functions"
+    - "--param=min-pagesize=0"
+    - "-fno-defer-pop"
+    - "-fmacro-prefix-map=*"
+    - "-specs=picolibc.specs"
+
+Diagnostics:
+  Suppress:
+    - "drv_unknown_argument"

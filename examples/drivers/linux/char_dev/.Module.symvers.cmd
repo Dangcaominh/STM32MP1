@@ -1,0 +1,1 @@
+savedcmd_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/Module.symvers :=  scripts/mod/modpost -M -m       -o /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/Module.symvers -T /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/modules.order -i Module.symvers -e 

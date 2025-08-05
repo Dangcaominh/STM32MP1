@@ -1,0 +1,1 @@
+savedcmd_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.mod := printf '%s\n'   char_dev.o | awk '!x[$$0]++ { print("/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/"$$0) }' > /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.mod

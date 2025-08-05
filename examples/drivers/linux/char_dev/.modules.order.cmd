@@ -1,0 +1,1 @@
+savedcmd_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/modules.order := {   echo /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o; :; } > /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/modules.order

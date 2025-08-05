@@ -1,0 +1,16 @@
+# kernel/linux/.clangd
+CompileFlags:
+  CompilationDatabase: /home/dangcaominh/STM32MP1/kernel/build
+  Add:
+    - "-D__KERNEL__"
+    - "-DMODULE" 
+    - "-nostdinc"
+    - "-I/usr/src/linux-headers-$(shell uname -r)/include"
+    - "-I/usr/src/linux-headers-$(shell uname -r)/arch/arm/include"
+  Remove:
+    - "-mfp16-format=ieee"
+    - "-fno-reorder-functions"
+    - "--param=min-pagesize=0"
+
+Index:
+  Background: Build
