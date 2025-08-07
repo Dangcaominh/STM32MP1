@@ -219,13 +219,13 @@ function build_kernel() {
             make -j32 modules O="${OUTPUT_BUILD_DIR}"
             make -j32 INSTALL_MOD_PATH="${OUTPUT_BUILD_DIR}/install_artifact" modules_install O="${OUTPUT_BUILD_DIR}"
             mkdir -p ${OUTPUT_BUILD_DIR}/install_artifact/boot/
-            sudo cp ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/${IMAGE_KERNEL} ${OUTPUT_BUILD_DIR}/install_artifact/boot/
+            cp ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/${IMAGE_KERNEL} ${OUTPUT_BUILD_DIR}/install_artifact/boot/
             # Copy device tree files (fixed find command)
             mkdir -p ${FIP_DEPLOYDIR_ROOT}/kernel
             find ${OUTPUT_BUILD_DIR}/arch/${ARCH}/boot/dts/ -name 'st*.dtb' -exec sudo cp '{}' ${FIP_DEPLOYDIR_ROOT}/kernel/ \;
             # Copy external device trees if they exist
             if [ -d "$EXTDT_DIR" ]; then
-                find ${OUTPUT_BUILD_DIR} -name "${BOARD}*.dtb" -exec sudo cp '{}' ${FIP_DEPLOYDIR_ROOT}/kernel/ \;
+                find ${OUTPUT_BUILD_DIR} -name "${BOARD}*.dtb" -exec cp '{}' ${FIP_DEPLOYDIR_ROOT}/kernel/ \;
             fi
             print_build_complete
             ;;

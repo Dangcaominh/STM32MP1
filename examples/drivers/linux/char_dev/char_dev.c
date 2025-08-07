@@ -1,66 +1,94 @@
-#include <linux/module.h>
-#include <linux/init.h>
+#include "linux/cdev.h"
+#include "linux/device/class.h"
+#include "linux/err.h"
+#include "linux/export.h"
+#include <linux/device.h>
 #include <linux/fs.h>
+#include <linux/gpio/consumer.h>
+#include <linux/init.h>
+#include <linux/kobject.h>
+#include <linux/module.h>
+#include <linux/string.h>
+#include <linux/sysfs.h>
+#include "char_dev.h"
 
-static int major;
-static char text[64];
 
-static ssize_t my_read(struct file *filp, char __user *user_buf, size_t len, loff_t *off)
-{
-	int not_copied, delta, to_copy = (len + *off) < sizeof(text) ? len : (sizeof(text) - *off);
 
-	pr_info("hello_cdev - Read is called, we want to read %ld bytes, but actually only copying %d bytes. The offset is %lld\n", len, to_copy, *off);
+struct kobj_attribute kobj_attribute =
+    __ATTR(gpio, 0660, gpio_show, gpio_store);
 
-	if (*off >= sizeof(text))
-		return 0;
+static int __init my_init(void) {
+  led = gpio_to_desc(IO_LED + IO_OFFSET);
+  if (!led) {
+    printk("gpioctrl - Error getting pin 13\n");
+    return -ENODEV;
+  }
+  gpiod_direction_output(led, 0);
+  int ret = 0;
+  ret = alloc_chrdev_region(&my_dev_t, 0, 1, "gpio_toggle");
 
-	not_copied = copy_to_user(user_buf, &text[*off], to_copy);
-	delta = to_copy - not_copied;
-	if (not_copied) 
-		pr_warn("hello_cdev - Could only copy %d bytes\n", delta);
+  if (ret < 0) {
+    pr_err("gpio_toggle - Failed to allocate chrdev region\n");
+    return ret;
+  }
 
-	*off += delta;
+  cdev_init(&my_cdev, &fops);
+  my_cdev.owner = THIS_MODULE;
+  ret = cdev_add(&my_cdev, my_dev_t, 1);
+  if (ret < 0) {
+    pr_err("Failed to add cdev\n");
+    goto err_cdev_add;
+  }
 
-	return delta;
+  my_class = class_create("my_gpio_toggle_class");
+  if (IS_ERR(my_class)) {
+    pr_err("Failed to create class\n");
+    goto err_class_create;
+  }
+
+  my_device = device_create(my_class, NULL, my_dev_t, NULL, "gpio_toggle");
+
+  if (IS_ERR(my_device)) {
+    pr_err("Failed to create device\n");
+    goto err_device_create;
+  }
+
+  kobj = kobject_create_and_add("gpio_toggle", kernel_kobj);
+  if (!kobj) {
+    printk("gpio_toggle - Error creating /sys/kernel/gpio_toggle\n");
+    ret = -ENOMEM;
+    goto err_kobj;
+  }
+
+  if (sysfs_create_file(kobj, &kobj_attribute.attr)) {
+    printk("gpio_toggle - Error creating /sys/kernel/gpio_toggle/gpio\n");
+    sysfs_remove_file(kobj, &kobj_attribute.attr);
+    kobject_put(kobj);
+    ret = -ENOMEM;
+    goto err_kobj;
+  }
+  return 0;
+err_kobj:
+  device_destroy(my_class, my_dev_t);
+err_device_create:
+  class_destroy(my_class);
+err_class_create:
+  cdev_del(&my_cdev);
+err_cdev_add:
+  unregister_chrdev_region(my_dev_t, 1);
+  return ret;
 }
 
-static ssize_t my_write(struct file *filp, const char __user *user_buf, size_t len, loff_t *off)
-{
-	int not_copied, delta, to_copy = (len + *off) < sizeof(text) ? len : (sizeof(text) - *off);
+static void __exit my_exit(void) {
+  // Cleanup in reverse order
+  sysfs_remove_file(kobj, &kobj_attribute.attr);
+  kobject_put(kobj);
+  device_destroy(my_class, my_dev_t);
+  class_destroy(my_class);
+  cdev_del(&my_cdev);
+  unregister_chrdev_region(my_dev_t, 1);
 
-	pr_info("hello_cdev - Write is called, we want to write %ld bytes, but actually only copying %d bytes. The offset is %lld\n", len, to_copy, *off);
-
-	if (*off >= sizeof(text))
-		return 0;
-
-	not_copied = copy_from_user(&text[*off], user_buf, to_copy);
-	delta = to_copy - not_copied;
-	if (not_copied) 
-		pr_warn("hello_cdev - Could only copy %d bytes\n", delta);
-
-	*off += delta;
-	return delta;
-}
-
-static struct file_operations fops = {
-	.read = my_read,
-	.write = my_write
-};
-
-static int __init my_init(void)
-{
-	major = register_chrdev(0, "hello_cdev", &fops);
-	if (major < 0) {
-		pr_err("hello_cdev - Error registering chrdev\n");
-		return major;
-	}
-	printk("hello_cdev - Major Device Number: %d\n", major);
-	return 0;
-}
-
-static void __exit my_exit(void)
-{
-	unregister_chrdev(major, "hello_cdev");
+  pr_info("gpio_toggle driver unloaded\n");
 }
 
 module_init(my_init);

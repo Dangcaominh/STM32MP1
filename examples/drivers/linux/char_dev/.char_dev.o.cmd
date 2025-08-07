@@ -26,53 +26,16 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/KCOV) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/module.h \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/SYSFS) \
-    $(wildcard include/config/MODULES_TREE_LOOKUP) \
-    $(wildcard include/config/LIVEPATCH) \
-    $(wildcard include/config/STACKTRACE_BUILD_ID) \
-    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
-    $(wildcard include/config/MODULE_SIG) \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/SMP) \
-    $(wildcard include/config/TRACEPOINTS) \
-    $(wildcard include/config/TREE_SRCU) \
-    $(wildcard include/config/BPF_EVENTS) \
-    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/TRACING) \
-    $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
-    $(wildcard include/config/KPROBES) \
-    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
-    $(wildcard include/config/KUNIT) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/MODULE_UNLOAD) \
-    $(wildcard include/config/CONSTRUCTORS) \
-    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/list.h \
-    $(wildcard include/config/LIST_HARDENED) \
-    $(wildcard include/config/DEBUG_LIST) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/container_of.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/build_bug.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/compiler.h \
-    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
-    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
-    $(wildcard include/config/OBJTOOL) \
-    $(wildcard include/config/64BIT) \
-  arch/arm/include/generated/asm/rwonce.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/rwonce.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kasan-checks.h \
-    $(wildcard include/config/KASAN_GENERIC) \
-    $(wildcard include/config/KASAN_SW_TAGS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/cdev.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/types.h \
     $(wildcard include/config/HAVE_UID16) \
     $(wildcard include/config/UID16) \
     $(wildcard include/config/ARCH_DMA_ADDR_T_64BIT) \
     $(wildcard include/config/PHYS_ADDR_T_64BIT) \
+    $(wildcard include/config/64BIT) \
     $(wildcard include/config/ARCH_32BIT_USTAT_F_TINODE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/types.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/types.h \
@@ -86,6 +49,20 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/stddef.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/posix_types.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/posix_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/list.h \
+    $(wildcard include/config/LIST_HARDENED) \
+    $(wildcard include/config/DEBUG_LIST) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/container_of.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/build_bug.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/compiler.h \
+    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
+    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
+    $(wildcard include/config/OBJTOOL) \
+  arch/arm/include/generated/asm/rwonce.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/rwonce.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kasan-checks.h \
+    $(wildcard include/config/KASAN_GENERIC) \
+    $(wildcard include/config/KASAN_SW_TAGS) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
@@ -102,39 +79,84 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/CPU_FA526) \
     $(wildcard include/config/ARM_HEAVY_MB) \
     $(wildcard include/config/ARM_DMA_MEM_BUFFERABLE) \
+    $(wildcard include/config/SMP) \
     $(wildcard include/config/CPU_SPECTRE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/barrier.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stat.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/stat.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/stat.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time.h \
-    $(wildcard include/config/POSIX_TIMERS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/cache.h \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/kernel.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/sysinfo.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/cache.h \
-    $(wildcard include/config/ARM_L1_CACHE_SHIFT) \
-    $(wildcard include/config/AEABI) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/math.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/div64.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/compiler.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/div64.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/log2.h \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
-    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sysfs.h \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+    $(wildcard include/config/SYSFS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/err.h \
+  arch/arm/include/generated/uapi/asm/errno.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/errno.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/errno-base.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mutex.h \
+    $(wildcard include/config/PREEMPT_RT) \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/current.h \
+    $(wildcard include/config/CURRENT_POINTER_IN_TPIDRURO) \
+    $(wildcard include/config/CC_IS_CLANG) \
+    $(wildcard include/config/CLANG_VERSION) \
+    $(wildcard include/config/CPU_V6) \
+    $(wildcard include/config/ARM_HAS_GROUP_RELOCS) \
+    $(wildcard include/config/ARM_MODULE_PLTS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/insn.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/spinlock_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rwlock_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/lockdep.h \
+    $(wildcard include/config/PROVE_LOCKING) \
+    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
+    $(wildcard include/config/PREEMPT_COUNT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/smp.h \
+    $(wildcard include/config/UP_LATE_INIT) \
+    $(wildcard include/config/DEBUG_PREEMPT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/errno.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/errno.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/cpumask.h \
+    $(wildcard include/config/FORCE_NR_CPUS) \
+    $(wildcard include/config/HOTPLUG_CPU) \
+    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
+    $(wildcard include/config/CPUMASK_OFFSTACK) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/TRACING) \
+    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stdarg.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/align.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/limits.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/limits.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/limits.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stringify.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/linkage.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bitops.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bits.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/bits.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/typecheck.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/kernel.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/sysinfo.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/bitops/generic-non-atomic.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/bitops.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/irqflags.h \
-    $(wildcard include/config/PROVE_LOCKING) \
     $(wildcard include/config/TRACE_IRQFLAGS) \
-    $(wildcard include/config/PREEMPT_RT) \
     $(wildcard include/config/IRQSOFF_TRACER) \
     $(wildcard include/config/PREEMPT_TRACER) \
     $(wildcard include/config/DEBUG_IRQFLAGS) \
@@ -150,12 +172,7 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/hwcap.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/irqflags.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/percpu.h \
-    $(wildcard include/config/CPU_V6) \
-    $(wildcard include/config/ARM_HAS_GROUP_RELOCS) \
-    $(wildcard include/config/ARM_MODULE_PLTS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/insn.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/percpu.h \
-    $(wildcard include/config/DEBUG_PREEMPT) \
     $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/threads.h \
     $(wildcard include/config/NR_CPUS) \
@@ -184,11 +201,13 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/processor.h \
     $(wildcard include/config/HAVE_HW_BREAKPOINT) \
     $(wildcard include/config/BINFMT_ELF_FDPIC) \
-    $(wildcard include/config/MMU) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/hw_breakpoint.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/unified.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/processor.h \
     $(wildcard include/config/ARM_ERRATA_754327) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/cache.h \
+    $(wildcard include/config/ARM_L1_CACHE_SHIFT) \
+    $(wildcard include/config/AEABI) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/cmpxchg.h \
     $(wildcard include/config/CPU_SA1100) \
     $(wildcard include/config/CPU_SA110) \
@@ -210,77 +229,15 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/swab.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/byteorder/generic.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/bitops/ext2-atomic-setbit.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/math64.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time64.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time64.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/time.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/time_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time32.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timex.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/timex.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/param.h \
-  arch/arm/include/generated/uapi/asm/param.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/param.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/timex.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time32.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/uidgid.h \
-    $(wildcard include/config/MULTIUSER) \
-    $(wildcard include/config/USER_NS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/highuid.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/buildid.h \
-    $(wildcard include/config/CRASH_CORE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mm_types.h \
-    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
-    $(wildcard include/config/MEMCG) \
-    $(wildcard include/config/HUGETLB_PMD_PAGE_TABLE_SHARING) \
-    $(wildcard include/config/USERFAULTFD) \
-    $(wildcard include/config/PER_VMA_LOCK) \
-    $(wildcard include/config/ANON_VMA_NAME) \
-    $(wildcard include/config/SWAP) \
-    $(wildcard include/config/NUMA) \
-    $(wildcard include/config/NUMA_BALANCING) \
-    $(wildcard include/config/SCHED_MM_CID) \
-    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
-    $(wildcard include/config/MEMBARRIER) \
-    $(wildcard include/config/AIO) \
-    $(wildcard include/config/MMU_NOTIFIER) \
-    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
-    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
-    $(wildcard include/config/HUGETLB_PAGE) \
-    $(wildcard include/config/IOMMU_SVA) \
-    $(wildcard include/config/KSM) \
-    $(wildcard include/config/LRU_GEN) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mm_types_task.h \
-    $(wildcard include/config/SPLIT_PTLOCK_CPUS) \
-    $(wildcard include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/cpumask.h \
-    $(wildcard include/config/FORCE_NR_CPUS) \
-    $(wildcard include/config/HOTPLUG_CPU) \
-    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
-    $(wildcard include/config/CPUMASK_OFFSTACK) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stdarg.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/align.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/limits.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/limits.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/limits.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stringify.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/linkage.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/hex.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kstrtox.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/log2.h \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U32) \
+    $(wildcard include/config/ARCH_HAS_ILOG2_U64) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/math.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/div64.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/compiler.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/div64.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/minmax.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/panic.h \
     $(wildcard include/config/PANIC_TIMEOUT) \
@@ -290,7 +247,9 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
     $(wildcard include/config/EARLY_PRINTK) \
     $(wildcard include/config/PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/init.h \
     $(wildcard include/config/MEMORY_HOTPLUG) \
     $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
@@ -299,36 +258,30 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/LTO_CLANG) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kern_levels.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ratelimit_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock_types_raw.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/spinlock_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCKDEP) \
-    $(wildcard include/config/LOCK_STAT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/param.h \
+  arch/arm/include/generated/uapi/asm/param.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/param.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/once_lite.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/dynamic_debug.h \
+    $(wildcard include/config/JUMP_LABEL) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sprintf.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/static_call_types.h \
     $(wildcard include/config/HAVE_STATIC_CALL) \
+    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/instruction_pointer.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bitmap.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/find.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/string.h \
     $(wildcard include/config/BINARY_PRINTF) \
     $(wildcard include/config/FORTIFY_SOURCE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/err.h \
-  arch/arm/include/generated/uapi/asm/errno.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/errno.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/asm-generic/errno-base.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/errno.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/errno.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/overflow.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/string.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/string.h \
     $(wildcard include/config/KASAN) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/bug.h \
     $(wildcard include/config/DEBUG_BUGVERBOSE) \
@@ -344,7 +297,37 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/numa.h \
     $(wildcard include/config/NODES_SHIFT) \
     $(wildcard include/config/NUMA_KEEP_MEMINFO) \
+    $(wildcard include/config/NUMA) \
     $(wildcard include/config/HAVE_ARCH_NODE_DEV_GROUP) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/smp_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/llist.h \
+    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/preempt.h \
+    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
+    $(wildcard include/config/PREEMPTION) \
+    $(wildcard include/config/PREEMPT_NOTIFIERS) \
+  arch/arm/include/generated/asm/preempt.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/preempt.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/thread_info.h \
+    $(wildcard include/config/THREAD_INFO_IN_TASK) \
+    $(wildcard include/config/GENERIC_ENTRY) \
+    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
+    $(wildcard include/config/HARDENED_USERCOPY) \
+    $(wildcard include/config/SH) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/restart_block.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time64.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/math64.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time64.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/time.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/time_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/thread_info.h \
+    $(wildcard include/config/VMAP_STACK) \
+    $(wildcard include/config/ARM_THUMBEE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/fpstate.h \
+    $(wildcard include/config/VFPv3) \
+    $(wildcard include/config/IWMMXT) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/page.h \
     $(wildcard include/config/CPU_COPY_V4WT) \
     $(wildcard include/config/CPU_COPY_V4WB) \
@@ -353,7 +336,6 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/CPU_XSCALE) \
     $(wildcard include/config/CPU_COPY_V6) \
     $(wildcard include/config/KUSER_HELPERS) \
-    $(wildcard include/config/VMAP_STACK) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/glue.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/pgtable-2level-types.h \
@@ -377,50 +359,47 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/SPARSEMEM_VMEMMAP) \
     $(wildcard include/config/SPARSEMEM) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/pfn.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/auxvec.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/auxvec.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/auxvec.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/auxvec.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kref.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock.h \
-    $(wildcard include/config/PREEMPTION) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/preempt.h \
-    $(wildcard include/config/PREEMPT_COUNT) \
-    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
-    $(wildcard include/config/PREEMPT_NOTIFIERS) \
-  arch/arm/include/generated/asm/preempt.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/preempt.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/thread_info.h \
-    $(wildcard include/config/THREAD_INFO_IN_TASK) \
-    $(wildcard include/config/GENERIC_ENTRY) \
-    $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
-    $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/SH) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/restart_block.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/current.h \
-    $(wildcard include/config/CURRENT_POINTER_IN_TPIDRURO) \
-    $(wildcard include/config/CC_IS_CLANG) \
-    $(wildcard include/config/CLANG_VERSION) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/thread_info.h \
-    $(wildcard include/config/ARM_THUMBEE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/fpstate.h \
-    $(wildcard include/config/VFPv3) \
-    $(wildcard include/config/IWMMXT) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/traps.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bottom_half.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/lockdep.h \
-    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/smp.h \
-    $(wildcard include/config/UP_LATE_INIT) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/smp_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/llist.h \
-    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/smp.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/osq_lock.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/debug_locks.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/idr.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/radix-tree.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/percpu.h \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
+    $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mmdebug.h \
+    $(wildcard include/config/DEBUG_VM) \
+    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
+    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rcupdate.h \
+    $(wildcard include/config/PREEMPT_RCU) \
+    $(wildcard include/config/TINY_RCU) \
+    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
+    $(wildcard include/config/RCU_LAZY) \
+    $(wildcard include/config/TASKS_RCU_GENERIC) \
+    $(wildcard include/config/RCU_STALL_COMMON) \
+    $(wildcard include/config/NO_HZ_FULL) \
+    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
+    $(wildcard include/config/RCU_NOCB_CPU) \
+    $(wildcard include/config/TASKS_RCU) \
+    $(wildcard include/config/TASKS_TRACE_RCU) \
+    $(wildcard include/config/TASKS_RUDE_RCU) \
+    $(wildcard include/config/TREE_RCU) \
+    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
+    $(wildcard include/config/PROVE_RCU) \
+    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/bottom_half.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/context_tracking_irq.h \
+    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rcutree.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock.h \
   arch/arm/include/generated/asm/mmiowb.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/mmiowb.h \
     $(wildcard include/config/MMIOWB) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/spinlock_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rwlock_types.h \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/spinlock.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rwlock.h \
     $(wildcard include/config/PREEMPT) \
@@ -455,81 +434,8 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQ) \
     $(wildcard include/config/INLINE_READ_UNLOCK_IRQRESTORE) \
     $(wildcard include/config/INLINE_WRITE_UNLOCK_IRQRESTORE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/refcount.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rbtree.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rbtree_types.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rcupdate.h \
-    $(wildcard include/config/PREEMPT_RCU) \
-    $(wildcard include/config/TINY_RCU) \
-    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
-    $(wildcard include/config/RCU_LAZY) \
-    $(wildcard include/config/TASKS_RCU_GENERIC) \
-    $(wildcard include/config/RCU_STALL_COMMON) \
-    $(wildcard include/config/NO_HZ_FULL) \
-    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
-    $(wildcard include/config/RCU_NOCB_CPU) \
-    $(wildcard include/config/TASKS_RCU) \
-    $(wildcard include/config/TASKS_TRACE_RCU) \
-    $(wildcard include/config/TASKS_RUDE_RCU) \
-    $(wildcard include/config/TREE_RCU) \
-    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
-    $(wildcard include/config/PROVE_RCU) \
-    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/context_tracking_irq.h \
-    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rcutree.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/maple_tree.h \
-    $(wildcard include/config/MAPLE_RCU_DISABLED) \
-    $(wildcard include/config/DEBUG_MAPLE_TREE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rwsem.h \
-    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_RWSEMS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/osq_lock.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/completion.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/swait.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/wait.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/wait.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/uprobes.h \
-    $(wildcard include/config/UPROBES) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/uprobes.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/probes.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/page-flags-layout.h \
-  include/generated/bounds.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/workqueue.h \
-    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
-    $(wildcard include/config/FREEZER) \
-    $(wildcard include/config/WQ_WATCHDOG) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timer.h \
-    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ktime.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/jiffies.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/jiffies.h \
-  include/generated/timeconst.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/ktime.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timekeeping.h \
-    $(wildcard include/config/GENERIC_CMOS_UPDATE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/clocksource_ids.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/debugobjects.h \
-    $(wildcard include/config/DEBUG_OBJECTS) \
-    $(wildcard include/config/DEBUG_OBJECTS_FREE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/seqlock.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mutex.h \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/debug_locks.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/percpu_counter.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/percpu.h \
-    $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
-    $(wildcard include/config/NEED_PER_CPU_PAGE_FIRST_CHUNK) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
-    $(wildcard include/config/DEBUG_VM_IRQSOFF) \
-    $(wildcard include/config/DEBUG_VM_PGFLAGS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/mmu.h \
-    $(wildcard include/config/CPU_HAS_ASID) \
-    $(wildcard include/config/VDSO) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kmod.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/umh.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/xarray.h \
+    $(wildcard include/config/XARRAY_MULTI) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/gfp.h \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
@@ -542,13 +448,21 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/MEMORY_ISOLATION) \
     $(wildcard include/config/ZSMALLOC) \
     $(wildcard include/config/UNACCEPTED_MEMORY) \
+    $(wildcard include/config/SWAP) \
+    $(wildcard include/config/NUMA_BALANCING) \
+    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
+    $(wildcard include/config/LRU_GEN) \
     $(wildcard include/config/LRU_GEN_STATS) \
+    $(wildcard include/config/MEMCG) \
     $(wildcard include/config/MEMORY_FAILURE) \
     $(wildcard include/config/PAGE_EXTENSION) \
     $(wildcard include/config/DEFERRED_STRUCT_PAGE_INIT) \
     $(wildcard include/config/HAVE_MEMORYLESS_NODES) \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/list_nulls.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/wait.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/wait.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/seqlock.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/nodemask.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/random.h \
     $(wildcard include/config/VMGENID) \
@@ -564,7 +478,76 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/jump_label.h \
     $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/pageblock-flags.h \
+    $(wildcard include/config/HUGETLB_PAGE) \
     $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/page-flags-layout.h \
+  include/generated/bounds.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mm_types.h \
+    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
+    $(wildcard include/config/HUGETLB_PMD_PAGE_TABLE_SHARING) \
+    $(wildcard include/config/USERFAULTFD) \
+    $(wildcard include/config/PER_VMA_LOCK) \
+    $(wildcard include/config/ANON_VMA_NAME) \
+    $(wildcard include/config/SCHED_MM_CID) \
+    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
+    $(wildcard include/config/MEMBARRIER) \
+    $(wildcard include/config/AIO) \
+    $(wildcard include/config/MMU_NOTIFIER) \
+    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
+    $(wildcard include/config/IOMMU_SVA) \
+    $(wildcard include/config/KSM) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/mm_types_task.h \
+    $(wildcard include/config/SPLIT_PTLOCK_CPUS) \
+    $(wildcard include/config/ARCH_ENABLE_SPLIT_PMD_PTLOCK) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/auxvec.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/auxvec.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/auxvec.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/auxvec.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kref.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/refcount.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rbtree.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rbtree_types.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/maple_tree.h \
+    $(wildcard include/config/MAPLE_RCU_DISABLED) \
+    $(wildcard include/config/DEBUG_MAPLE_TREE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rwsem.h \
+    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_RWSEMS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/completion.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/swait.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/uprobes.h \
+    $(wildcard include/config/UPROBES) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/uprobes.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/probes.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/workqueue.h \
+    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
+    $(wildcard include/config/FREEZER) \
+    $(wildcard include/config/WQ_WATCHDOG) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timer.h \
+    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ktime.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time.h \
+    $(wildcard include/config/POSIX_TIMERS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/time32.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timex.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/timex.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/timex.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time32.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/time.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/jiffies.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/jiffies.h \
+  include/generated/timeconst.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/ktime.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/timekeeping.h \
+    $(wildcard include/config/GENERIC_CMOS_UPDATE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/clocksource_ids.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/debugobjects.h \
+    $(wildcard include/config/DEBUG_OBJECTS) \
+    $(wildcard include/config/DEBUG_OBJECTS_FREE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/percpu_counter.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/mmu.h \
+    $(wildcard include/config/CPU_HAS_ASID) \
+    $(wildcard include/config/VDSO) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/page-flags.h \
     $(wildcard include/config/ARCH_USES_PG_UNCACHED) \
     $(wildcard include/config/PAGE_IDLE_FLAG) \
@@ -577,6 +560,7 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/ARCH_HAS_ADD_PAGES) \
     $(wildcard include/config/MEMORY_HOTREMOVE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/notifier.h \
+    $(wildcard include/config/TREE_SRCU) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/srcu.h \
     $(wildcard include/config/TINY_SRCU) \
     $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
@@ -595,42 +579,6 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/ARM_CPU_TOPOLOGY) \
     $(wildcard include/config/BL_SWITCHER) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/topology.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sysctl.h \
-    $(wildcard include/config/SYSCTL) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/sysctl.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/elf.h \
-    $(wildcard include/config/ARCH_USE_GNU_PROPERTY) \
-    $(wildcard include/config/ARCH_HAVE_ELF_PROT) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/elf.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso_datapage.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/datapage.h \
-    $(wildcard include/config/ARCH_HAS_VDSO_DATA) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/clocksource.h \
-    $(wildcard include/config/GENERIC_GETTIMEOFDAY) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/clocksource.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/processor.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/gettimeofday.h \
-    $(wildcard include/config/ARM_ARCH_TIMER) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/unistd.h \
-    $(wildcard include/config/OABI_COMPAT) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/unistd.h \
-  arch/arm/include/generated/uapi/asm/unistd-eabi.h \
-  arch/arm/include/generated/asm/unistd-nr.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/cp15.h \
-    $(wildcard include/config/CPU_CP15) \
-  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/user.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/elf.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/elf-em.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sysfs.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/idr.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/radix-tree.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/xarray.h \
-    $(wildcard include/config/XARRAY_MULTI) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sched/mm.h \
     $(wildcard include/config/MMU_LAZY_TLB_REFCOUNT) \
     $(wildcard include/config/ARCH_HAS_MEMBARRIER_CALLBACKS) \
@@ -677,8 +625,10 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/RSEQ) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/BCACHE) \
+    $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
@@ -699,6 +649,10 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sem.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/sem.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ipc.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/uidgid.h \
+    $(wildcard include/config/MULTIUSER) \
+    $(wildcard include/config/USER_NS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/highuid.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rhashtable-types.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/ipc.h \
   arch/arm/include/generated/uapi/asm/ipcbuf.h \
@@ -730,6 +684,11 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/seccomp.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/asm-generic/seccomp.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/unistd.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/unistd.h \
+    $(wildcard include/config/OABI_COMPAT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/unistd.h \
+  arch/arm/include/generated/uapi/asm/unistd-eabi.h \
+  arch/arm/include/generated/asm/unistd-nr.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/resource.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/resource.h \
   arch/arm/include/generated/uapi/asm/resource.h \
@@ -764,6 +723,91 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sync_core.h \
     $(wildcard include/config/ARCH_HAS_SYNC_CORE_BEFORE_USERMODE) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kobject_ns.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/stat.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/uapi/asm/stat.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/stat.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kdev_t.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/kdev_t.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/device.h \
+    $(wildcard include/config/HAS_IOMEM) \
+    $(wildcard include/config/GENERIC_MSI_IRQ) \
+    $(wildcard include/config/ENERGY_MODEL) \
+    $(wildcard include/config/PINCTRL) \
+    $(wildcard include/config/DMA_OPS) \
+    $(wildcard include/config/DMA_DECLARE_COHERENT) \
+    $(wildcard include/config/DMA_CMA) \
+    $(wildcard include/config/SWIOTLB) \
+    $(wildcard include/config/SWIOTLB_DYNAMIC) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_DEVICE) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU) \
+    $(wildcard include/config/ARCH_HAS_SYNC_DMA_FOR_CPU_ALL) \
+    $(wildcard include/config/DMA_OPS_BYPASS) \
+    $(wildcard include/config/PM_SLEEP) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/DEVTMPFS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/dev_printk.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ratelimit.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/energy_model.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sched/cpufreq.h \
+    $(wildcard include/config/CPU_FREQ) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sched/topology.h \
+    $(wildcard include/config/SCHED_DEBUG) \
+    $(wildcard include/config/SCHED_CLUSTER) \
+    $(wildcard include/config/SCHED_MC) \
+    $(wildcard include/config/CPU_FREQ_GOV_SCHEDUTIL) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sched/idle.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sched/sd_flags.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ioport.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/klist.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/pm.h \
+    $(wildcard include/config/VT_CONSOLE_SLEEP) \
+    $(wildcard include/config/CXL_SUSPEND) \
+    $(wildcard include/config/PM) \
+    $(wildcard include/config/PM_CLK) \
+    $(wildcard include/config/PM_GENERIC_DOMAINS) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/device/bus.h \
+    $(wildcard include/config/ACPI) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/device/class.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/device/driver.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/module.h \
+    $(wildcard include/config/MODULES_TREE_LOOKUP) \
+    $(wildcard include/config/STACKTRACE_BUILD_ID) \
+    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
+    $(wildcard include/config/MODULE_SIG) \
+    $(wildcard include/config/KALLSYMS) \
+    $(wildcard include/config/TRACEPOINTS) \
+    $(wildcard include/config/BPF_EVENTS) \
+    $(wildcard include/config/DEBUG_INFO_BTF_MODULES) \
+    $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/KPROBES) \
+    $(wildcard include/config/MODULE_UNLOAD) \
+    $(wildcard include/config/CONSTRUCTORS) \
+    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/buildid.h \
+    $(wildcard include/config/CRASH_CORE) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kmod.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/umh.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/sysctl.h \
+    $(wildcard include/config/SYSCTL) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/sysctl.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/elf.h \
+    $(wildcard include/config/ARCH_USE_GNU_PROPERTY) \
+    $(wildcard include/config/ARCH_HAVE_ELF_PROT) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/elf.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso_datapage.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/datapage.h \
+    $(wildcard include/config/ARCH_HAS_VDSO_DATA) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/clocksource.h \
+    $(wildcard include/config/GENERIC_GETTIMEOFDAY) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/clocksource.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/vdso/processor.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/gettimeofday.h \
+    $(wildcard include/config/ARM_ARCH_TIMER) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/vdso/cp15.h \
+    $(wildcard include/config/CPU_CP15) \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/user.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/elf.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/elf-em.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/moduleparam.h \
     $(wildcard include/config/ALPHA) \
     $(wildcard include/config/IA64) \
@@ -780,6 +824,10 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
   /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/unwind.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/arch/arm/include/asm/device.h \
+    $(wildcard include/config/ARM_DMA_USE_IOMMU) \
+    $(wildcard include/config/ARCH_OMAP) \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/pm_wakeup.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/fs.h \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
@@ -795,8 +843,6 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/FS_DAX) \
     $(wildcard include/config/BLOCK) \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/wait_bit.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/kdev_t.h \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/kdev_t.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/dcache.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rculist_bl.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/list_bl.h \
@@ -866,7 +912,6 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
     $(wildcard include/config/VFIO_PCI_ZDEV_KVM) \
     $(wildcard include/config/IOMMUFD) \
     $(wildcard include/config/WATCH_QUEUE) \
-  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/ratelimit.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/rcu_sync.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/delayed_call.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/uuid.h \
@@ -900,6 +945,10 @@ deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o := \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/dqblk_qtree.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/linux/projid.h \
   /home/dangcaominh/STM32MP1/kernel/linux/include/uapi/linux/quota.h \
+  /home/dangcaominh/STM32MP1/kernel/linux/include/linux/gpio/consumer.h \
+    $(wildcard include/config/GPIOLIB) \
+    $(wildcard include/config/GPIO_SYSFS) \
+  /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.h \
 
 /home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o: $(deps_/home/dangcaominh/STM32MP1/examples/drivers/linux/char_dev/char_dev.o)
 
